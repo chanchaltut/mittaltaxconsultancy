@@ -1,1 +1,0 @@
-import{n as r,j as s}from"./index-Dl4vvr9B.js";import"./router-8H30XJJE.js";import{S as o}from"./ServicePage-BT1z89zk.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const e=()=>{const e=r.find(r=>"project-reports"===r.slug);return s.jsx(o,{service:e})};export{e as default};

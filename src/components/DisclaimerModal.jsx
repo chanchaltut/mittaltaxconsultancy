@@ -66,10 +66,9 @@ const DisclaimerModal = () => {
 
         {/* Header */}
         <div className="px-6 pt-5 pb-4 flex items-center justify-between border-b border-red-100">
-          {/* Text Logo in modal */}
-          <div className="flex items-center gap-1">
-            <span className="text-[#E31937] font-black text-lg tracking-tight">Mittal</span>
-            <span className="text-[#0A132B] font-black text-lg tracking-tight">&nbsp;Tax Consultancy</span>
+          {/* Logo in modal */}
+          <div className="flex items-center">
+            <img src="/src/assets/MTConsultancyLogo.webp" alt="Mittal Tax Consultancy" className="h-8 sm:h-10 w-auto" />
           </div>
           <button
             onClick={dismiss}

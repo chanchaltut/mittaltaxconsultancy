@@ -56,26 +56,7 @@ const Navbar = () => {
               className="flex items-center gap-2 z-50 flex-shrink-0"
               aria-label="Mittal Tax Consultancy - Home"
             >
-              <span className="flex items-center gap-1 select-none">
-                <span
-                  className="text-[#E31937] font-black tracking-tight leading-none"
-                  style={{ fontSize: 'clamp(1rem, 2.5vw, 1.25rem)' }}
-                >
-                  Mittal
-                </span>
-                <span
-                  className="text-[#0A132B] font-black tracking-tight leading-none"
-                  style={{ fontSize: 'clamp(1rem, 2.5vw, 1.25rem)' }}
-                >
-                  &nbsp;Tax
-                </span>
-                <span
-                  className="hidden sm:inline text-[#0A132B] font-black tracking-tight leading-none"
-                  style={{ fontSize: 'clamp(1rem, 2.5vw, 1.25rem)' }}
-                >
-                  &nbsp;Consultancy
-                </span>
-              </span>
+              <img src="/src/assets/MTConsultancyLogo.webp" alt="Mittal Tax Consultancy" className="h-10 sm:h-12 w-auto" />
             </Link>
 
             {/* Desktop Nav */}

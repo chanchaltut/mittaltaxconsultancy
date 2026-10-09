@@ -13,8 +13,8 @@ export const BRAND = {
   subTagline: 'Expert Tax, Compliance & Accounting Services — GST, ITR, Audit & Business Registration',
   description:
     'Mittal Tax Consultancy is your trusted financial partner providing expert compliance and accounting solutions with accuracy and transparency — GST, ITR & TDS Filing, Company & MSME Registrations, NGO Accounting & Audits, and Comprehensive Tax Advisory for individuals, startups, and growing businesses.',
-  phone: '+91 98999 98888',            // ← PLACEHOLDER: Add your phone number
-  whatsapp: '919899998888',   // ← PLACEHOLDER: Add your WhatsApp number (with country code, no +)
+  phone: '+91 77039 42779',            // ← PLACEHOLDER: Add your phone number
+  whatsapp: '917703942779',   // ← PLACEHOLDER: Add your WhatsApp number (with country code, no +)
   email: 'mittalconsultancy6@gmail.com',
   address: 'Delhi - 110092, India',
   timings: 'Open 24 Hours',
@@ -25,7 +25,7 @@ export const BRAND = {
   social: {
     facebook:  '#',      // ← PLACEHOLDER: Add your Facebook URL
     instagram: '#',     // ← PLACEHOLDER: Add your Instagram URL
-    whatsapp:  'https://wa.me/919899998888?text=Hi! I need professional services from Mittal Tax Consultancy.',
+    whatsapp:  'https://wa.me/917703942779?text=Hi! I need professional services from Mittal Tax Consultancy.',
     linkedin:  'https://www.linkedin.com/in/mittal0444',
     twitter:   '#',       // ← PLACEHOLDER: Add your Twitter/X URL
     youtube:   '#',       // ← PLACEHOLDER: Add your YouTube URL
@@ -676,7 +676,7 @@ export const HERO_SLIDES = [
     description:
       'GST, ITR & TDS filing, Company & MSME registrations, NGO Accounting & Audits, Comprehensive Tax Advisory — delivered 100% online with accuracy and transparency.',
     ctaText: 'WhatsApp Us Now',
-    ctaLink: `https://wa.me/919899998888?text=Hi! I need professional services from Mittal Tax Consultancy.`,
+    ctaLink: `https://wa.me/917703942779?text=Hi! I need professional services from Mittal Tax Consultancy.`,
     ctaSecondary: 'Explore Services',
     ctaSecondaryLink: '/#services',
     backgroundImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80&auto=format&fit=crop',
@@ -691,7 +691,7 @@ export const HERO_SLIDES = [
     ctaText: 'View Our Services',
     ctaLink: '/#services',
     ctaSecondary: 'Call Now',
-    ctaSecondaryLink: `tel:+919899998888`,
+    ctaSecondaryLink: `tel:+917703942779`,
     backgroundImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80&auto=format&fit=crop',
   },
   {

@@ -1,0 +1,1 @@
+import{n as s,j as r}from"./index-BFng3kFe.js";import"./router-8H30XJJE.js";import{S as o}from"./ServicePage-DLMNADWu.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const e=()=>{const e=s.find(s=>"ca-certificates"===s.slug);return r.jsx(o,{service:e})};export{e as default};

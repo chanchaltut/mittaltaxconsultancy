@@ -1,1 +1,0 @@
-import{n as s,j as o}from"./index-DIQWmVE4.js";import"./router-8H30XJJE.js";import{S as r}from"./ServicePage-BCj63rl-.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const e=()=>{const e=s.find(s=>"income-tax"===s.slug);return o.jsx(r,{service:e})};export{e as default};

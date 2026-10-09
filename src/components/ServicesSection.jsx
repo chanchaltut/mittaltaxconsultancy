@@ -3,7 +3,7 @@ import { PARENT_SERVICES, BRAND } from '../utils/constants';
 
 // Icon map — one Remix icon per service category (no emojis)
 const CATEGORY_ICONS = {
-  'gst':          'ri-receipt-2-line',
+  'gst':          'ri-file-list-3-line',
   'itr':          'ri-file-chart-line',
   'tds':          'ri-percent-line',
   'legal':        'ri-scales-3-line',

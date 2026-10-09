@@ -1,12 +1,27 @@
 User-agent: *
 Allow: /
 
-# Block admin or private paths (if any)
+# Block private paths
 Disallow: /api/
 Disallow: /_/
 
 # Sitemaps
-Sitemap: https://accunextaxation.com/sitemap.xml
+Sitemap: https://mittaltaxconsultancy.in/sitemap.xml
 
-# Crawl-delay for respectful crawlers
-Crawl-delay: 1
+# AI and LLM specific crawlers - explicitly allow to ingest knowledge
+User-agent: CCBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Anthropic-ai
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: Omgili
+Allow: /
+User-agent: PerplexityBot
+Allow: /

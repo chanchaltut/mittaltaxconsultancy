@@ -121,9 +121,8 @@ const Navbar = () => {
         aria-label="Mobile navigation"
       >
         {/* Sidebar Logo */}
-        <div className="p-4 border-b border-red-100 flex items-center gap-3">
-          <span className="text-[#E31937] font-black text-lg tracking-tight">Mittal</span>
-          <span className="text-[#0A132B] font-black text-lg tracking-tight">Tax Consultancy</span>
+        <div className="p-4 border-b border-red-100 flex items-center">
+          <img src={mtcLogo} alt="Mittal Tax Consultancy" className="h-8 w-auto" />
         </div>
 
         {/* Sidebar Nav Links */}

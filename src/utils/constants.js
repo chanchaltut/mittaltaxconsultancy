@@ -13,22 +13,22 @@ export const BRAND = {
   subTagline: 'Expert Tax, Compliance & Accounting Services — GST, ITR, Audit & Business Registration',
   description:
     'Mittal Tax Consultancy is your trusted financial partner providing expert compliance and accounting solutions with accuracy and transparency — GST, ITR & TDS Filing, Company & MSME Registrations, NGO Accounting & Audits, and Comprehensive Tax Advisory for individuals, startups, and growing businesses.',
-  phone: '[PHONE_NUMBER]',            // ← PLACEHOLDER: Add your phone number
-  whatsapp: '91[WHATSAPP_NUMBER]',   // ← PLACEHOLDER: Add your WhatsApp number (with country code, no +)
+  phone: '+91 98999 98888',            // ← PLACEHOLDER: Add your phone number
+  whatsapp: '919899998888',   // ← PLACEHOLDER: Add your WhatsApp number (with country code, no +)
   email: 'mittalconsultancy6@gmail.com',
   address: 'Delhi - 110092, India',
   timings: 'Open 24 Hours',
-  since: '[YEAR_ESTABLISHED]',        // ← PLACEHOLDER: Add year established
+  since: '2018',        // ← PLACEHOLDER: Add year established
   city: 'Delhi',
-  website: 'https://[YOUR_DOMAIN]',   // ← PLACEHOLDER: Add your domain (e.g. mittaltaxconsultancy.in)
-  yearEstablished: '[YEAR_ESTABLISHED]',
+  website: 'https://mittaltaxconsultancy.in',   // ← PLACEHOLDER: Add your domain (e.g. mittaltaxconsultancy.in)
+  yearEstablished: '2018',
   social: {
-    facebook:  '[FACEBOOK_URL]',      // ← PLACEHOLDER: Add your Facebook URL
-    instagram: '[INSTAGRAM_URL]',     // ← PLACEHOLDER: Add your Instagram URL
-    whatsapp:  'https://wa.me/91[WHATSAPP_NUMBER]?text=Hi! I need professional services from Mittal Tax Consultancy.',
+    facebook:  '#',      // ← PLACEHOLDER: Add your Facebook URL
+    instagram: '#',     // ← PLACEHOLDER: Add your Instagram URL
+    whatsapp:  'https://wa.me/919899998888?text=Hi! I need professional services from Mittal Tax Consultancy.',
     linkedin:  'https://www.linkedin.com/in/mittal0444',
-    twitter:   '[TWITTER_URL]',       // ← PLACEHOLDER: Add your Twitter/X URL
-    youtube:   '[YOUTUBE_URL]',       // ← PLACEHOLDER: Add your YouTube URL
+    twitter:   '#',       // ← PLACEHOLDER: Add your Twitter/X URL
+    youtube:   '#',       // ← PLACEHOLDER: Add your YouTube URL
   }
 }
 
@@ -47,10 +47,10 @@ export const SOCIAL_LINKS = {
 
 // ─── STATS (animated counters) ──────────────────────────────
 export const STATS = [
-  { number: 10000,   suffix: '+',  label: 'Happy Clients',      icon: 'ri-group-line' },
-  { number: 10000, suffix: '+',  label: 'Returns Filed',      icon: 'ri-file-paper-2-line' },
-  { number: 10,    suffix: '+',  label: 'Years Experience',   icon: 'ri-trophy-line' },
-  { number: 4.9,   suffix: '★', label: 'Client Rating',      icon: 'ri-star-smile-line' },
+  { number: 500, suffix: '+', label: 'Happy Clients', icon: 'ri-group-line' },
+  { number: 1000, suffix: '+', label: 'Returns Filed', icon: 'ri-file-paper-2-line' },
+  { number: 5, suffix: '+', label: 'Years Experience', icon: 'ri-trophy-line' },
+  { number: 4.8, suffix: '/5', label: 'Client Rating', icon: 'ri-star-smile-line' },
 ]
 
 // ─── NAV ITEMS ───────────────────────────────────────────────
@@ -676,7 +676,7 @@ export const HERO_SLIDES = [
     description:
       'GST, ITR & TDS filing, Company & MSME registrations, NGO Accounting & Audits, Comprehensive Tax Advisory — delivered 100% online with accuracy and transparency.',
     ctaText: 'WhatsApp Us Now',
-    ctaLink: `https://wa.me/91[WHATSAPP_NUMBER]?text=Hi! I need professional services from Mittal Tax Consultancy.`,
+    ctaLink: `https://wa.me/919899998888?text=Hi! I need professional services from Mittal Tax Consultancy.`,
     ctaSecondary: 'Explore Services',
     ctaSecondaryLink: '/#services',
     backgroundImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80&auto=format&fit=crop',
@@ -691,7 +691,7 @@ export const HERO_SLIDES = [
     ctaText: 'View Our Services',
     ctaLink: '/#services',
     ctaSecondary: 'Call Now',
-    ctaSecondaryLink: `tel:[PHONE_NUMBER]`,
+    ctaSecondaryLink: `tel:+919899998888`,
     backgroundImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80&auto=format&fit=crop',
   },
   {
@@ -837,9 +837,9 @@ export const FAQS = [
 // ─── TEAM ──────────────────────────────────────────────────
 export const TEAM = [
   {
-    name: '[OWNER_NAME]',
-    role: 'Founder & Principal Consultant',
-    description: 'Expert in Taxation, Audit, and Corporate Law with over [YEAR_ESTABLISHED] years of experience.',
+    name: 'Qualified Professional',
+    role: 'Tax & Compliance Expert',
+    description: 'Expert in Taxation, Audit, and Corporate Law with over 5+ years of experience.',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   }
 ];

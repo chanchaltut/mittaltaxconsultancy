@@ -1,1 +1,0 @@
-import{n as s,j as r}from"./index-sUGs93ip.js";import"./router-8H30XJJE.js";import{S as o}from"./ServicePage-D3WmEZ5a.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const e=()=>{const e=s.find(s=>"business-registration"===s.slug);return r.jsx(o,{service:e})};export{e as default};

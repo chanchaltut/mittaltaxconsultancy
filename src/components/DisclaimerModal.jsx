@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { BRAND } from '../utils/constants';
+import mtcLogo from '../assets/MTConsultancyLogo.webp';
 
 const serviceItems = [
-  { icon: 'ri-bar-chart-2-line',   label: 'Tax & GST Services' },
-  { icon: 'ri-file-text-line',      label: 'Audit & Assurance' },
-  { icon: 'ri-building-2-line',     label: 'Business Registration' },
-  { icon: 'ri-award-line',          label: 'Certificates' },
-  { icon: 'ri-file-chart-line',     label: 'Project Reports' },
-  { icon: 'ri-whatsapp-line',       label: 'WhatsApp Support' },
+  { icon: 'ri-receipt-line',        label: 'GST Filing' },
+  { icon: 'ri-file-chart-line',     label: 'ITR Filing' },
+  { icon: 'ri-building-4-line',     label: 'Incorporation' },
+  { icon: 'ri-percent-line',        label: 'TDS Returns' },
+  { icon: 'ri-store-3-line',        label: 'MSME / Udyam' },
+  { icon: 'ri-scales-3-line',       label: 'Legal Services' },
 ];
-
-const tagItems = ['Tax', 'GST', 'Audit', 'Business Registration', 'Project Reports', 'Certificates'];
 
 const DisclaimerModal = () => {
   const [show, setShow] = useState(false);
@@ -39,7 +38,7 @@ const DisclaimerModal = () => {
 
   return (
     <div
-      className={`fixed inset-0 z-[200] flex items-center justify-center p-4 transition-all duration-300 ${
+      className={`fixed inset-0 z-[200] flex items-center justify-center p-3 sm:p-4 transition-all duration-300 ${
         animate ? 'opacity-100' : 'opacity-0'
       }`}
       role="dialog"
@@ -55,21 +54,19 @@ const DisclaimerModal = () => {
         aria-hidden="true"
       />
 
-      {/* Modal */}
+      {/* Modal — capped at 80vh so close button is always reachable */}
       <div
-        className={`relative w-full max-w-lg bg-white rounded-2xl overflow-hidden shadow-2xl border border-red-100 transition-all duration-300 ${
+        className={`relative w-full max-w-sm bg-white rounded-2xl shadow-2xl border border-red-100 transition-all duration-300 flex flex-col overflow-hidden ${
           animate ? 'scale-100 translate-y-0' : 'scale-95 translate-y-4'
         }`}
+        style={{ maxHeight: '80vh' }}
       >
         {/* Red top bar */}
-        <div className="h-1 w-full bg-gradient-to-r from-[#E31937] via-[#F5405E] to-[#E31937]" />
+        <div className="h-1 w-full bg-gradient-to-r from-[#E31937] via-[#F5405E] to-[#E31937] flex-shrink-0" />
 
         {/* Header */}
-        <div className="px-6 pt-5 pb-4 flex items-center justify-between border-b border-red-100">
-          {/* Logo in modal */}
-          <div className="flex items-center">
-            <img src="/src/assets/MTConsultancyLogo.webp" alt="Mittal Tax Consultancy" className="h-8 sm:h-10 w-auto" />
-          </div>
+        <div className="px-4 pt-3 pb-3 flex items-center justify-between border-b border-red-100 flex-shrink-0">
+          <img src={mtcLogo} alt="Mittal Tax Consultancy" className="h-7 sm:h-8 w-auto" />
           <button
             onClick={dismiss}
             className="w-8 h-8 rounded-full bg-red-50 hover:bg-[#E31937]/20 flex items-center justify-center text-[#0A132B]/60 hover:text-[#0A132B] transition-all"
@@ -79,48 +76,33 @@ const DisclaimerModal = () => {
           </button>
         </div>
 
-        {/* Body */}
-        <div className="px-6 pt-5 pb-4">
-          <h2 className="text-[#0A132B] font-bold text-2xl mb-1">
+        {/* Scrollable body */}
+        <div className="overflow-y-auto flex-1 px-4 pt-4 pb-3">
+          <h2 className="text-[#0A132B] font-bold text-lg sm:text-xl mb-0.5">
             Welcome to <span className="text-[#E31937]">Mittal Tax Consultancy</span>
           </h2>
-          <p className="text-[#667085] text-sm mb-5">Your Trusted Financial Partner — Tax, Compliance &amp; Business Support</p>
-
-          {/* Tagline card */}
-          <div className="flex items-start gap-3 bg-red-50 rounded-xl p-4 mb-5 border border-red-100">
-            <div className="w-10 h-10 rounded-full bg-[#E31937]/15 border border-red-200 flex items-center justify-center flex-shrink-0 mt-0.5">
-              <i className="ri-briefcase-4-line text-[#E31937] text-base" />
-            </div>
-            <div>
-              <p className="text-[#E31937] font-bold text-sm leading-snug mb-1">
-                Your Business. Your Compliance. One Trusted Solution.
-              </p>
-              <p className="text-[#667085] text-xs leading-relaxed">
-                Expert GST, ITR & TDS Filing, Company & MSME Registrations, NGO Accounting, Audits & Comprehensive Tax Advisory — delivered with accuracy and transparency.
-              </p>
-            </div>
-          </div>
+          <p className="text-[#667085] text-xs mb-4">Your Trusted Financial Partner — Tax, Compliance &amp; Business Support</p>
 
           {/* Service grid — 2×3 */}
-          <div className="grid grid-cols-2 gap-2.5 mb-5">
+          <div className="grid grid-cols-2 gap-2 mb-4">
             {serviceItems.map((item, i) => (
               <div
                 key={i}
-                className="flex items-center gap-2.5 bg-red-50 rounded-xl px-3.5 py-3 border border-red-100 hover:border-[#E31937]/40 transition-colors"
+                className="flex items-center gap-2 bg-red-50 rounded-xl px-3 py-2.5 border border-red-100"
               >
-                <i className={`${item.icon} text-[#E31937] text-lg flex-shrink-0`} />
-                <span className="text-[#0A132B] font-semibold text-[13px]">{item.label}</span>
+                <i className={`${item.icon} text-[#E31937] text-base flex-shrink-0`} />
+                <span className="text-[#0A132B] font-semibold text-xs">{item.label}</span>
               </div>
             ))}
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex gap-3">
+          <div className="flex gap-2.5">
             <button
               onClick={dismiss}
-              className="flex-1 flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white py-3 px-4 rounded-full font-bold text-sm transition-all duration-200 min-h-[46px]"
+              className="flex-1 flex items-center justify-center gap-1.5 bg-[#E31937] hover:bg-[#C01530] text-white py-2.5 px-3 rounded-full font-bold text-xs transition-all duration-200"
             >
-              <i className="ri-compass-3-line text-base" />
+              <i className="ri-compass-3-line text-sm" />
               Explore Services
             </button>
             <a
@@ -128,22 +110,20 @@ const DisclaimerModal = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={dismiss}
-              className="flex-1 flex items-center justify-center gap-2 bg-[#25d366] hover:bg-[#20b858] text-white py-3 px-4 rounded-full font-bold text-sm transition-all duration-200 min-h-[46px]"
+              className="flex-1 flex items-center justify-center gap-1.5 bg-[#25d366] hover:bg-[#20b858] text-white py-2.5 px-3 rounded-full font-bold text-xs transition-all duration-200"
             >
-              <i className="ri-whatsapp-line text-base" />
+              <i className="ri-whatsapp-line text-sm" />
               WhatsApp Us
             </a>
           </div>
         </div>
 
-        {/* Tag strip at bottom */}
-        <div className="border-t border-red-100 px-6 py-2.5 flex items-center justify-center gap-1.5 flex-wrap">
-          {tagItems.map((tag, i) => (
+        {/* Footer tag strip */}
+        <div className="border-t border-red-100 px-4 py-2 flex items-center justify-center gap-1.5 flex-wrap flex-shrink-0">
+          {['GST', 'ITR', 'TDS', 'MSME', 'Trademark', 'FSSAI'].map((tag, i, arr) => (
             <React.Fragment key={i}>
-              <span className="text-[#667085] text-[11px] font-medium">{tag}</span>
-              {i < tagItems.length - 1 && (
-                <span className="text-red-200 text-[10px]">•</span>
-              )}
+              <span className="text-[#667085] text-[10px] font-medium">{tag}</span>
+              {i < arr.length - 1 && <span className="text-red-200 text-[10px]">•</span>}
             </React.Fragment>
           ))}
         </div>

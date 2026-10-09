@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import mtcLogo from '../assets/MTConsultancyLogo.webp';
 import { Link, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes, FaPhone } from 'react-icons/fa';
 import { BRAND } from '../utils/constants';
@@ -56,7 +57,7 @@ const Navbar = () => {
               className="flex items-center gap-2 z-50 flex-shrink-0"
               aria-label="Mittal Tax Consultancy - Home"
             >
-              <img src="/src/assets/MTConsultancyLogo.webp" alt="Mittal Tax Consultancy" className="h-10 sm:h-12 w-auto" />
+              <img src={mtcLogo} alt="Mittal Tax Consultancy" className="h-9 sm:h-11 w-auto" />
             </Link>
 
             {/* Desktop Nav */}

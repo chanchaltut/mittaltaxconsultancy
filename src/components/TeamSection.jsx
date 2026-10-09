@@ -6,11 +6,11 @@ import { TEAM, BRAND } from '../utils/constants';
 import femaleProfessionalImg from "../assets/female-professional.jpg";
 
 const ProfessionalIllustration = () => (
-  <div className="w-full h-full bg-red-50 relative overflow-hidden flex items-end justify-center">
+  <div className="w-full h-full bg-red-50 relative overflow-hidden flex items-start justify-center">
     <img
       src={femaleProfessionalImg}
       alt="Professional Female Tax Consultant"
-      className="w-full h-full object-cover object-center"
+      className="w-full h-full object-cover object-top"
     />
   </div>
 );

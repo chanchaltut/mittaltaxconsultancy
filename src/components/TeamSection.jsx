@@ -48,10 +48,10 @@ const TeamSection = () => {
             <div className="p-6 sm:p-8 border-t-2 border-[#E31937]">
               <h3 className="text-[#0A132B] font-bold text-xl sm:text-2xl mb-1">{founder.name}</h3>
               <p className="text-[#E31937] text-sm font-semibold tracking-wide mb-2">{founder.role}</p>
-              <p className="text-[#667085] text-sm leading-relaxed mb-5">{founder.expertise}</p>
+              <p className="text-[#667085] text-sm leading-relaxed mb-6">{founder.description}</p>
 
               {/* Qualifications */}
-              <div className="flex flex-wrap gap-2 mb-6">
+              <div className="flex flex-wrap gap-2">
                 {founder.qualification && (
                   <span className="bg-[#FBFAF7] border border-red-100 text-[#667085] text-[11px] px-3 py-1 rounded-full">
                     {founder.qualification}

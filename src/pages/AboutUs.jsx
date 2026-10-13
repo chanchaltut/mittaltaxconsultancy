@@ -11,7 +11,7 @@ const AboutUs = () => {
     <>
             <Helmet>
         <title>About Us | Mittal Tax Consultancy — Trusted Professional Firm in India</title>
-        <meta name="description" content="Learn about Mittal Tax Consultancy. We are a dedicated team of Chartered Accountants and tax professionals serving over 10000+ clients across India for 10+ years." />
+        <meta name="description" content="Learn about Mittal Tax Consultancy. We are a dedicated team of Chartered Accountants and tax professionals serving over 500+ clients across India for 5+ years." />
         <meta name="keywords" content="About Mittal Tax Consultancy, professional firm India, Online qualified professionals, Tax experts India, Business compliance team" />
         <meta property="og:title" content="About Mittal Tax Consultancy | Trusted Tax Professionals" />
         <meta property="og:description" content="Discover Mittal Tax Consultancy. A dedicated team of qualified qualified professionals offering 100% online taxation and compliance services across India." />

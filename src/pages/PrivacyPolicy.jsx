@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { SOCIAL_LINKS } from '../utils/constants';
+import { BRAND, SOCIAL_LINKS } from '../utils/constants';
 
 const PrivacyPolicy = () => {
   return (
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
                 1. Introduction
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                Juris Associates ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our legal services. By using our website, you consent to the data practices described in this policy.
+                Mittal Tax Consultancy ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our tax, compliance, and advisory services. By using our website, you consent to the data practices described in this policy.
               </p>
             </div>
 
@@ -173,10 +173,10 @@ const PrivacyPolicy = () => {
                 If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us:
               </p>
               <div className="bg-[#FBFAF7] rounded-lg p-6 space-y-2">
-                <p className="text-slate-700"><strong className="text-[#0A132B]">Juris Associates</strong></p>
-                <p className="text-slate-700">Kolkata, West Bengal, India</p>
-                <p className="text-slate-700">Email: <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-red-600 hover:underline">{SOCIAL_LINKS.email}</a></p>
-                <p className="text-slate-700">Phone: <a href="tel:9211957859" className="text-red-600 hover:underline">+91 9211957859</a></p>
+                <p className="text-slate-700"><strong className="text-[#0A132B]">Mittal Tax Consultancy</strong></p>
+                <p className="text-slate-700">Delhi - 110092, India</p>
+                <p className="text-slate-700">Email: <a href={`mailto:${BRAND.email}`} className="text-red-600 hover:underline">{BRAND.email}</a></p>
+                <p className="text-slate-700">Phone: <a href={`tel:${BRAND.phone}`} className="text-red-600 hover:underline">{BRAND.phone}</a></p>
               </div>
             </div>
 

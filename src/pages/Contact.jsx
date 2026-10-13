@@ -36,7 +36,7 @@ const Contact = () => {
     <>
             <Helmet>
         <title>Contact Us | Mittal Tax Consultancy — Free CA Consultation</title>
-        <meta name="description" content="Contact Mittal Tax Consultancy for GST, ITR, and company registration queries. Call 9424856409 or WhatsApp for a free consultation with our qualified professional professionals." />
+        <meta name="description" content="Contact Mittal Tax Consultancy for GST, ITR, and company registration queries. Call +91 77039 42779 or WhatsApp for a free consultation with our qualified tax professionals." />
         <meta name="keywords" content="Contact CA online, Mittal Tax Consultancy contact number, CA phone number, WhatsApp CA consultation, CA email" />
         <meta property="og:title" content="Contact Mittal Tax Consultancy | Free Online Consultation" />
         <meta property="og:description" content="Need expert tax advice? Contact Mittal Tax Consultancy today. 100% online professional services across India." />

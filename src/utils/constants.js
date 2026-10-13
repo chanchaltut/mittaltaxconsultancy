@@ -50,7 +50,7 @@ export const STATS = [
   { number: 500, suffix: '+', label: 'Happy Clients', icon: 'ri-group-line' },
   { number: 1000, suffix: '+', label: 'Returns Filed', icon: 'ri-file-paper-2-line' },
   { number: 5, suffix: '+', label: 'Years Experience', icon: 'ri-trophy-line' },
-  { number: 4.8, suffix: '/5', label: 'Client Rating', icon: 'ri-star-smile-line' },
+  { number: 4.2, suffix: '/5', label: 'Client Rating', icon: 'ri-star-smile-line' },
 ]
 
 // ─── NAV ITEMS ───────────────────────────────────────────────
@@ -780,11 +780,11 @@ We provide hassle-free, reliable services in GST, ITR & TDS Filing, Company & MS
 
 We issue a proper GST-compliant tax invoice for every service.`,
   highlights: [
-    'Qualified Tax Professionals — 10+ Years of Experience',
+    'Qualified Tax Professionals — 5+ Years of Experience',
     '100% Online Services — Pan-India Coverage',
     'Transparent, Fixed Pricing — No Hidden Charges',
     'We Issue Proper GST Invoice for Every Service',
-    '10,000+ Happy Clients Served',
+    '500+ Happy Clients Served',
     'Dedicated WhatsApp Support — Open 24 Hours',
   ],
   clientCategories: [

@@ -5,8 +5,8 @@ import { HERO_SLIDES, BRAND } from '../utils/constants';
 
 const trustBadges = [
   { icon: 'ri-trophy-line', text: 'Qualified Professionals' },
-  { icon: 'ri-star-smile-line', text: '10000+ Clients' },
-  { icon: 'ri-flashlight-line', text: '10+ Years' },
+  { icon: 'ri-star-smile-line', text: '500+ Clients' },
+  { icon: 'ri-flashlight-line', text: '5+ Years' },
   { icon: 'ri-global-line', text: '100% Online' },
 ];
 

@@ -122,8 +122,8 @@ const TestimonialsSection = () => {
                 <FaStar key={i} className="text-[#E31937] text-sm" />
               ))}
             </div>
-            <span className="text-[#0A132B] font-bold">4.9/5</span>
-            <span className="text-[#667085] text-sm">from 10000+ clients</span>
+            <span className="text-[#0A132B] font-bold">4.2/5</span>
+            <span className="text-[#667085] text-sm">from 500+ clients</span>
           </div>
         </div>
       </div>

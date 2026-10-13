@@ -83,7 +83,7 @@ const ExpertCA = () => {
                 </div>
                 <div>
                   <p className="text-[#0A132B] font-bold text-sm sm:text-base">Mittal Tax Consultancy — Expert Professional Services</p>
-                  <p className="text-[#667085] text-xs mt-0.5">Serving 10000+ clients across India</p>
+                  <p className="text-[#667085] text-xs mt-0.5">Serving 500+ clients across India</p>
                 </div>
               </div>
             </div>

@@ -22,7 +22,7 @@ const Home = () => {
         
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Mittal Tax Consultancy | Expert Professional Services Online India" />
-        <meta property="og:description" content="Get expert professional services 100% online. GST, ITR filing, company registration, tax audit, and TDS compliance by qualified professionals. Serving 10000+ clients across India." />
+        <meta property="og:description" content="Get expert professional services 100% online. GST, ITR filing, company registration, tax audit, and TDS compliance by qualified professionals. Serving 500+ clients across India." />
         <meta property="og:url" content="https://mittaltaxconsultancy.in/" />
         <meta property="og:site_name" content="Mittal Tax Consultancy" />
         

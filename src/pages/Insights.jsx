@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaCalendarAlt, FaUser, FaArrowRight, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { BRAND } from '../utils/constants';
 
 // ─── BLOG ARTICLES ─────────────────────────────────────────────
 // All articles are Income Tax / GST / TDS / Business Registration only
@@ -394,7 +395,7 @@ const Insights = () => {
                         <div className="mt-8 p-5 bg-[#FBFAF7] rounded-xl border border-red-200">
                           <p className="text-[#0A132B] font-semibold mb-3">Need help with this? Talk to our team.</p>
                           <a
-                            href={`https://wa.me/919424856409?text=Hi! I read your article on "${article.title}" and need help.`}
+                            href={`https://wa.me/${BRAND.whatsapp}?text=Hi! I read your article on "${article.title}" and need help.`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-[#25d366] hover:bg-[#20b858] text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-colors"
@@ -420,7 +421,7 @@ const Insights = () => {
               </p>
               <form
                 className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
-                onSubmit={(e) => { e.preventDefault(); alert('Thank you! We\'ll send you tax updates at Mittal Tax Consultancyinfo@gmail.com'); }}
+                onSubmit={(e) => { e.preventDefault(); alert(`Thank you! We'll send you tax updates at ${BRAND.email}`); }}
               >
                 <input
                   type="email"

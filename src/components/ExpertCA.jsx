@@ -8,7 +8,7 @@ const ExpertCA = () => {
   return (
     <section
       className="bg-white py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 overflow-hidden"
-      aria-label="Why choose Mittal Tax Consultancy"
+      aria-label="Why choose MT Consultancy"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -18,7 +18,7 @@ const ExpertCA = () => {
             <div className="section-tag">Why Choose Us</div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-5 leading-tight">
               Why{' '}
-              <span className="text-[#E31937]">Mittal Tax Consultancy</span>{' '}
+              <span className="text-[#E31937]">MT Consultancy</span>{' '}
               is India's Trusted Trusted Partner
             </h2>
 
@@ -46,7 +46,7 @@ const ExpertCA = () => {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <a
-                href={`https://wa.me/${BRAND.whatsapp}?text=Hi! I want to get started with Mittal Tax Consultancy.`}
+                href={`https://wa.me/${BRAND.whatsapp}?text=Hi! I want to get started with MT Consultancy.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 group min-h-[48px]"
@@ -82,7 +82,7 @@ const ExpertCA = () => {
                   <i className="ri-trophy-line text-2xl text-white"></i>
                 </div>
                 <div>
-                  <p className="text-[#0A132B] font-bold text-sm sm:text-base">Mittal Tax Consultancy — Expert Professional Services</p>
+                  <p className="text-[#0A132B] font-bold text-sm sm:text-base">MT Consultancy — Expert Professional Services</p>
                   <p className="text-[#667085] text-xs mt-0.5">Serving 500+ clients across India</p>
                 </div>
               </div>

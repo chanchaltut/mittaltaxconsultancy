@@ -6,10 +6,10 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-[#FBFAF7] pt-24">
       <Helmet>
-        <title>Privacy Policy | Mittal Tax Consultancy</title>
-        <meta name="description" content="Privacy Policy of Mittal Tax Consultancy. How we protect your data." />
+        <title>Privacy Policy | MT Consultancy</title>
+        <meta name="description" content="Privacy Policy of MT Consultancy. How we protect your data." />
         <meta name="robots" content="noindex, follow" />
-        <link rel="canonical" href="https://mittaltaxconsultancy.in/privacy-policy" />
+        <link rel="canonical" href="https://mtconsultancy.in/privacy-policy" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-[#1a1a1a] to-[#0f0f0f] py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8">
@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
               Privacy <span className="text-red-600">Policy</span>
             </h1>
             <p className="text-slate-700 text-lg sm:text-xl max-w-3xl mx-auto">
-              Last Updated: January 2024
+              Last Updated: January 2025
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
                 1. Introduction
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                Mittal Tax Consultancy ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our tax, compliance, and advisory services. By using our website, you consent to the data practices described in this policy.
+                MT Consultancy ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our tax, compliance, and advisory services. By using our website, you consent to the data practices described in this policy.
               </p>
             </div>
 
@@ -173,8 +173,8 @@ const PrivacyPolicy = () => {
                 If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us:
               </p>
               <div className="bg-[#FBFAF7] rounded-lg p-6 space-y-2">
-                <p className="text-slate-700"><strong className="text-[#0A132B]">Mittal Tax Consultancy</strong></p>
-                <p className="text-slate-700">Delhi - 110092, India</p>
+                <p className="text-slate-700"><strong className="text-[#0A132B]">MT Consultancy</strong></p>
+                <p className="text-slate-700">East Delhi - 110092, India</p>
                 <p className="text-slate-700">Email: <a href={`mailto:${BRAND.email}`} className="text-red-600 hover:underline">{BRAND.email}</a></p>
                 <p className="text-slate-700">Phone: <a href={`tel:${BRAND.phone}`} className="text-red-600 hover:underline">{BRAND.phone}</a></p>
               </div>

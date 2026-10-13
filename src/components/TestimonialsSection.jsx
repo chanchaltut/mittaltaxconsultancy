@@ -31,7 +31,7 @@ const TestimonialsSection = () => {
             What Our <span className="text-[#E31937]">Clients Say</span>
           </h2>
           <p className="text-[#667085] text-sm sm:text-base">
-            500+ satisfied clients across India trust Mittal Tax Consultancy for all their CA needs.
+            500+ satisfied clients across India trust MT Consultancy for all their CA needs.
           </p>
         </div>
 

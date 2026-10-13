@@ -1,31 +1,31 @@
 // ═══════════════════════════════════════════════════════════
-//  Mittal Tax Consultancy — Central Data Store
+//  MT Consultancy — Central Data Store
 //  All content, services, FAQs, team, stats defined here.
 //  Edit this file to update any content site-wide.
 // ═══════════════════════════════════════════════════════════
 
 // ─── BRAND CONFIG ───────────────────────────────────────────
 export const BRAND = {
-  name: 'Mittal Tax Consultancy',
+  name: 'MT Consultancy',
   shortName: 'MTC',
-  legalName: 'Mittal Tax Consultancy',
+  legalName: 'MT Consultancy',
   tagline: 'Your Trusted Financial Partner',
   subTagline: 'Expert Tax, Compliance & Accounting Services — GST, ITR, Audit & Business Registration',
   description:
-    'Mittal Tax Consultancy is your trusted financial partner providing expert compliance and accounting solutions with accuracy and transparency — GST, ITR & TDS Filing, Company & MSME Registrations, NGO Accounting & Audits, and Comprehensive Tax Advisory for individuals, startups, and growing businesses.',
+    'MT Consultancy is your trusted financial partner providing expert compliance and accounting solutions with accuracy and transparency — GST, ITR & TDS Filing, Company & MSME Registrations, NGO Accounting & Audits, and Comprehensive Tax Advisory for individuals, startups, and growing businesses.',
   phone: '+91 77039 42779',            // ← PLACEHOLDER: Add your phone number
   whatsapp: '917703942779',   // ← PLACEHOLDER: Add your WhatsApp number (with country code, no +)
-  email: 'mittalconsultancy6@gmail.com',
-  address: 'Delhi - 110092, India',
+  email: 'mtconsultancyinfo@gmail.com',
+  address: 'East Delhi - 110092, India',
   timings: 'Open 24 Hours',
   since: '2018',        // ← PLACEHOLDER: Add year established
-  city: 'Delhi',
-  website: 'https://mittaltaxconsultancy.in',   // ← PLACEHOLDER: Add your domain (e.g. mittaltaxconsultancy.in)
+  city: 'East Delhi',
+  website: 'https://mtconsultancy.in',
   yearEstablished: '2018',
   social: {
     facebook:  '#',      // ← PLACEHOLDER: Add your Facebook URL
     instagram: '#',     // ← PLACEHOLDER: Add your Instagram URL
-    whatsapp:  'https://wa.me/917703942779?text=Hi! I need professional services from Mittal Tax Consultancy.',
+    whatsapp:  'https://wa.me/917703942779?text=Hi! I need professional services from MT Consultancy.',
     linkedin:  'https://www.linkedin.com/in/mittal0444',
     twitter:   '#',       // ← PLACEHOLDER: Add your Twitter/X URL
     youtube:   '#',       // ← PLACEHOLDER: Add your YouTube URL
@@ -75,7 +75,7 @@ export const SERVICES = [
     "isPopular": true,
     "badge": "Most Popular",
     "shortDesc": "ITR filing for individuals, businesses & professionals with maximum tax savings.",
-    "overview": "File your income tax return accurately and on time with Mittal Tax Consultancy. We handle ITR-1 through ITR-7, reconcile your AIS/26AS, maximise deductions under 80C, 80D, HRA, and provide expert tax planning strategies.",
+    "overview": "File your income tax return accurately and on time with MT Consultancy. We handle ITR-1 through ITR-7, reconcile your AIS/26AS, maximise deductions under 80C, 80D, HRA, and provide expert tax planning strategies.",
     "services": [
       "ITR Filing for Salaried & Business",
       "Old Pending ITR Filing",
@@ -88,7 +88,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹499",
     "timeline": "1-3 working days",
-    "whatsappMsg": "Hi! I need Income Tax Filing assistance from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need Income Tax Filing assistance from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -102,7 +102,7 @@ export const SERVICES = [
     "isPopular": true,
     "badge": "Most Popular",
     "shortDesc": "Complete GST compliance — registration to annual returns, notices & audit.",
-    "overview": "Mittal Tax Consultancy provides end-to-end GST services. From obtaining your GSTIN to filing monthly, quarterly, and annual returns, we handle everything efficiently ensuring you claim maximum ITC and stay penalty-free.",
+    "overview": "MT Consultancy provides end-to-end GST services. From obtaining your GSTIN to filing monthly, quarterly, and annual returns, we handle everything efficiently ensuring you claim maximum ITC and stay penalty-free.",
     "services": [
       "New GST Registration",
       "GSTR-1 & GSTR-3B Filing",
@@ -114,7 +114,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹999",
     "timeline": "3-7 working days",
-    "whatsappMsg": "Hi! I need GST Services from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need GST Services from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -128,7 +128,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Comprehensive Tax & Statutory Audit services for businesses and corporations.",
-    "overview": "Ensure full regulatory compliance with our audit services. Mittal Tax Consultancy conducts Tax Audits u/s 44AB and Statutory Audits to verify your financial statements are accurate and comply with the latest tax laws.",
+    "overview": "Ensure full regulatory compliance with our audit services. MT Consultancy conducts Tax Audits u/s 44AB and Statutory Audits to verify your financial statements are accurate and comply with the latest tax laws.",
     "services": [
       "Tax Audit u/s 44AB",
       "Statutory Audit of Companies",
@@ -140,7 +140,7 @@ export const SERVICES = [
     ],
     "startingPrice": "Consult for Pricing",
     "timeline": "Case-specific",
-    "whatsappMsg": "Hi! I need Tax Audit services from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need Tax Audit services from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -154,7 +154,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Quarterly TDS/TCS return filing, deduction computation & Form 16 issuance.",
-    "overview": "We manage your complete TDS compliance. Mittal Tax Consultancy handles TDS computation, quarterly return filing (24Q, 26Q, 27EQ), default resolution, and issues Form 16/16A to employees and vendors.",
+    "overview": "We manage your complete TDS compliance. MT Consultancy handles TDS computation, quarterly return filing (24Q, 26Q, 27EQ), default resolution, and issues Form 16/16A to employees and vendors.",
     "services": [
       "TDS Computation & Challan",
       "24Q, 26Q, 27EQ Filing",
@@ -164,7 +164,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹1,499",
     "timeline": "2-5 working days",
-    "whatsappMsg": "Hi! I need TDS compliance services from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need TDS compliance services from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -178,7 +178,7 @@ export const SERVICES = [
     "isPopular": true,
     "badge": "High Demand",
     "shortDesc": "One-stop business setup — Proprietorship to Private Limited, FSSAI, IEC & NGO registrations.",
-    "overview": "Start your business the right way with Mittal Tax Consultancy. We help you choose the right structure and handle all registrations — from simple Proprietorships to Private Limited Companies, FSSAI food licenses, IEC for export-import, and NGO/Trust/Society formation.",
+    "overview": "Start your business the right way with MT Consultancy. We help you choose the right structure and handle all registrations — from simple Proprietorships to Private Limited Companies, FSSAI food licenses, IEC for export-import, and NGO/Trust/Society formation.",
     "services": [
       "Proprietorship Registration",
       "Partnership Firm Registration",
@@ -191,7 +191,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹4,999",
     "timeline": "7-15 working days",
-    "whatsappMsg": "Hi! I want to register a business with Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I want to register a business with MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -205,7 +205,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Annual filings, board resolutions, minutes & all MCA/ROC compliance for companies.",
-    "overview": "Keep your company fully compliant with MCA regulations. Mittal Tax Consultancy handles all your ROC filings, annual returns (AOC-4, MGT-7), board meeting minutes, and statutory registers to keep you penalty-free.",
+    "overview": "Keep your company fully compliant with MCA regulations. MT Consultancy handles all your ROC filings, annual returns (AOC-4, MGT-7), board meeting minutes, and statutory registers to keep you penalty-free.",
     "services": [
       "Annual Return (MGT-7)",
       "Financial Statements (AOC-4)",
@@ -217,7 +217,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹3,999",
     "timeline": "5-10 working days",
-    "whatsappMsg": "Hi! I need ROC/Corporate compliance from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need ROC/Corporate compliance from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -231,7 +231,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Bank loan project reports, CMA data & feasibility studies for all business types.",
-    "overview": "Mittal Tax Consultancy prepares professional project reports and CMA (Credit Monitoring Arrangement) data for bank loans, Mudra, SIDBI, and PMEGP. Our reports meet bank standards and are designed to maximise loan approval chances.",
+    "overview": "MT Consultancy prepares professional project reports and CMA (Credit Monitoring Arrangement) data for bank loans, Mudra, SIDBI, and PMEGP. Our reports meet bank standards and are designed to maximise loan approval chances.",
     "services": [
       "Project Report for Bank Loans",
       "CMA Data Preparation",
@@ -242,7 +242,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹2,999",
     "timeline": "3-5 working days",
-    "whatsappMsg": "Hi! I need a Project Report / CMA Data from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need a Project Report / CMA Data from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -256,7 +256,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Turnover, net worth, export, and other certificates by qualified professionals.",
-    "overview": "Mittal Tax Consultancy issues all types of professional certificates required for bank loans, tenders, visa applications, and government schemes — signed by qualified professionals.",
+    "overview": "MT Consultancy issues all types of professional certificates required for bank loans, tenders, visa applications, and government schemes — signed by qualified professionals.",
     "services": [
       "Turnover / Revenue Certificate",
       "Net Worth Certificate",
@@ -268,7 +268,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹1,499",
     "timeline": "1-2 working days",
-    "whatsappMsg": "Hi! I need a CA Certificate from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need a CA Certificate from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1568219557405-376e23e4f7cf?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -282,7 +282,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Complete loan file preparation — home, business, MSME & personal loan documentation.",
-    "overview": "Mittal Tax Consultancy assists with complete loan documentation — from ITR preparation to balance sheet compilation, bank statement analysis, and project report preparation — to help you secure the loan you need.",
+    "overview": "MT Consultancy assists with complete loan documentation — from ITR preparation to balance sheet compilation, bank statement analysis, and project report preparation — to help you secure the loan you need.",
     "services": [
       "Home Loan Documentation",
       "Business Loan File Preparation",
@@ -293,7 +293,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹1,999",
     "timeline": "2-4 working days",
-    "whatsappMsg": "Hi! I need Loan Documentation assistance from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need Loan Documentation assistance from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=700&q=80&auto=format&fit=crop"
   },
   {
@@ -307,7 +307,7 @@ export const SERVICES = [
     "isPopular": false,
     "badge": "",
     "shortDesc": "Specialised ITR filing for F&O traders, equity investors & capital gain computation.",
-    "overview": "Mittal Tax Consultancy handles complex ITR filings for F&O traders and investors — computing turnover, setting off losses, claiming expenses, and ensuring full tax compliance for stock market participants.",
+    "overview": "MT Consultancy handles complex ITR filings for F&O traders and investors — computing turnover, setting off losses, claiming expenses, and ensuring full tax compliance for stock market participants.",
     "services": [
       "F&O Turnover Computation",
       "ITR-3 Filing for F&O Traders",
@@ -318,7 +318,7 @@ export const SERVICES = [
     ],
     "startingPrice": "₹2,499",
     "timeline": "2-4 working days",
-    "whatsappMsg": "Hi! I need F&O / Capital Gain Tax filing from Mittal Tax Consultancy.",
+    "whatsappMsg": "Hi! I need F&O / Capital Gain Tax filing from MT Consultancy.",
     "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=700&q=80&auto=format&fit=crop"
   }
 ]
@@ -339,7 +339,7 @@ export const PARENT_SERVICES = [
     isPopular: true,
     category: 'GST',
     shortDesc: 'Complete GST compliance — new registration, return filing, amendments & notices handled by experts.',
-    whatsappMsg: 'Hi! I need GST services from Mittal Tax Consultancy. Please guide me.',
+    whatsappMsg: 'Hi! I need GST services from MT Consultancy. Please guide me.',
     subcategories: [
       { name: 'New GST Registration', price: 'Starting from ₹499', popular: true },
       { name: 'GSTR-1 Monthly / Quarterly Filing', price: 'Starting from ₹499/month' },
@@ -364,7 +364,7 @@ export const PARENT_SERVICES = [
     isPopular: true,
     category: 'ITR',
     shortDesc: 'Accurate ITR filing for salaried, business, professionals & NRIs with maximum deductions.',
-    whatsappMsg: 'Hi! I need ITR filing services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need ITR filing services from MT Consultancy.',
     subcategories: [
       { name: 'ITR-1 — Salaried / Pension', price: 'Starting from ₹499', popular: true },
       { name: 'ITR-2 — Capital Gains / HUF / NRI', price: 'Starting from ₹999' },
@@ -389,7 +389,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'TDS',
     shortDesc: 'Quarterly TDS / TCS return filing, Form 16 generation & TDS notice resolution.',
-    whatsappMsg: 'Hi! I need TDS return filing services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need TDS return filing services from MT Consultancy.',
     subcategories: [
       { name: 'TAN Registration (New)', price: 'Starting from ₹999' },
       { name: '24Q — Salary TDS Return', price: 'Starting from ₹999/quarter', popular: true },
@@ -414,7 +414,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'Legal',
     shortDesc: 'Litigation support, appeal filing, demand notice replies & tax dispute resolution.',
-    whatsappMsg: 'Hi! I need legal / litigation assistance from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need legal / litigation assistance from MT Consultancy.',
     subcategories: [
       { name: 'Income Tax Litigation & Representation', price: 'Starting from ₹4,999', popular: true },
       { name: 'GST Appeal Filing', price: 'Starting from ₹4,999' },
@@ -439,7 +439,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'PF / ESIC',
     shortDesc: 'PF & ESIC registration, monthly challan, returns & employee compliance management.',
-    whatsappMsg: 'Hi! I need PF / ESIC registration or compliance services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need PF / ESIC registration or compliance services from MT Consultancy.',
     subcategories: [
       { name: 'PF (EPFO) Registration', price: 'Starting from ₹1,999', popular: true },
       { name: 'ESIC Registration', price: 'Starting from ₹1,999' },
@@ -464,7 +464,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'Trade Mark',
     shortDesc: 'Trademark registration, objection reply, copyright & design protection — protect your brand.',
-    whatsappMsg: 'Hi! I need trademark registration services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need trademark registration services from MT Consultancy.',
     subcategories: [
       { name: 'Trademark Registration (1 Class)', price: 'Starting from ₹999 + Govt Fee', popular: true },
       { name: 'Trademark Search & Availability Report', price: 'Starting from ₹499' },
@@ -488,7 +488,7 @@ export const PARENT_SERVICES = [
     isPopular: true,
     category: 'Incorporation',
     shortDesc: 'Company, LLP, OPC, Section 8, Partnership & Proprietorship — complete incorporation support.',
-    whatsappMsg: 'Hi! I want to incorporate a company or register a business with Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I want to incorporate a company or register a business with MT Consultancy.',
     subcategories: [
       { name: 'Private Limited Company (Pvt Ltd)', price: 'Starting from ₹999 + Govt Fee', popular: true },
       { name: 'Limited Liability Partnership (LLP)', price: 'Starting from ₹999 + Govt Fee' },
@@ -513,7 +513,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'MCA',
     shortDesc: 'Annual filings, board minutes, director changes & all MCA / ROC compliance for companies & LLPs.',
-    whatsappMsg: 'Hi! I need MCA / ROC compliance services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need MCA / ROC compliance services from MT Consultancy.',
     subcategories: [
       { name: 'AOC-4 — Annual Financial Statement Filing', price: 'Starting from ₹499', popular: true },
       { name: 'MGT-7 / MGT-7A — Annual Return Filing', price: 'Starting from ₹499' },
@@ -538,7 +538,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'Import / Export',
     shortDesc: 'IEC registration, DGFT services, export documentation & foreign trade compliance.',
-    whatsappMsg: 'Hi! I need Import Export / IEC services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need Import Export / IEC services from MT Consultancy.',
     subcategories: [
       { name: 'IEC Registration (Import Export Code)', price: 'Starting from ₹1,999 + Govt Fee', popular: true },
       { name: 'IEC Modification / Update', price: 'Starting from ₹999' },
@@ -558,23 +558,23 @@ export const PARENT_SERVICES = [
     shortTitle: 'Accounting',
     emoji: '📒',
     icon: 'ri-book-2-line',
-    startingPrice: '₹999',
+    startingPrice: '₹1,999',
     badge: null,
     isPopular: false,
     category: 'Accounting',
     shortDesc: 'Monthly bookkeeping, P&L, balance sheet preparation & payroll management for businesses.',
-    whatsappMsg: 'Hi! I need Accounting & Bookkeeping services from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need Accounting & Bookkeeping services from MT Consultancy.',
     subcategories: [
-      { name: 'Monthly Bookkeeping (Tally / Zoho)', price: 'Starting from ₹999/month', popular: true },
-      { name: 'Profit & Loss Statement', price: 'Starting from ₹999' },
-      { name: 'Balance Sheet Preparation', price: 'Starting from ₹1,499' },
-      { name: 'Payroll Processing & Salary Slips', price: 'Starting from ₹999/month' },
-      { name: 'Bank Reconciliation Statement (BRS)', price: 'Starting from ₹499' },
-      { name: 'Accounts Receivable / Payable Management', price: 'Starting from ₹999/month' },
-      { name: 'Stock / Inventory Accounting', price: 'Starting from ₹1,499/month' },
-      { name: 'Fixed Asset Register Maintenance', price: 'Starting from ₹999' },
+      { name: 'Monthly Bookkeeping (Tally / Zoho)', price: 'Starting from ₹1,999/month', popular: true },
+      { name: 'Profit & Loss Statement', price: 'Starting from ₹1,999' },
+      { name: 'Balance Sheet Preparation', price: 'Starting from ₹1,999' },
+      { name: 'Payroll Processing & Salary Slips', price: 'Starting from ₹1,999/month' },
+      { name: 'Bank Reconciliation Statement (BRS)', price: 'Starting from ₹1,999' },
+      { name: 'Accounts Receivable / Payable Management', price: 'Starting from ₹1,999/month' },
+      { name: 'Stock / Inventory Accounting', price: 'Starting from ₹1,999/month' },
+      { name: 'Fixed Asset Register Maintenance', price: 'Starting from ₹1,999' },
       { name: 'Annual Accounts Finalization', price: 'Starting from ₹2,999' },
-      { name: 'MIS Reports & Cash Flow Statements', price: 'Starting from ₹1,499' },
+      { name: 'MIS Reports & Cash Flow Statements', price: 'Starting from ₹1,999' },
     ]
   },
   {
@@ -588,7 +588,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'MSME',
     shortDesc: 'MSME / Udyam registration, update & government scheme assistance for small businesses.',
-    whatsappMsg: 'Hi! I need MSME / Udyam registration from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need MSME / Udyam registration from MT Consultancy.',
     subcategories: [
       { name: 'New Udyam Registration', price: 'Starting from ₹999', popular: true },
       { name: 'Udyam Update / Amendment', price: 'Starting from ₹499' },
@@ -613,7 +613,7 @@ export const PARENT_SERVICES = [
     isPopular: false,
     category: 'FSSAI',
     shortDesc: 'FSSAI basic, state & central food licence registration, renewal & modifications.',
-    whatsappMsg: 'Hi! I need FSSAI food licence registration from Mittal Tax Consultancy.',
+    whatsappMsg: 'Hi! I need FSSAI food licence registration from MT Consultancy.',
     subcategories: [
       { name: 'FSSAI Basic Registration (Petty Operator)', price: 'Starting from ₹999 + Govt Fee', popular: true },
       { name: 'FSSAI State Licence', price: 'Starting from ₹1,999 + Govt Fee' },
@@ -670,13 +670,13 @@ export const PROCESS_STEPS = [
 export const HERO_SLIDES = [
   {
     id: 1,
-    badge: 'Your Trusted Financial Partner — Delhi',
+    badge: 'Your Trusted Financial Partner — East Delhi',
     heading: 'Expert Tax & Compliance',
     subHeading: 'Services Across India',
     description:
       'GST, ITR & TDS filing, Company & MSME registrations, NGO Accounting & Audits, Comprehensive Tax Advisory — delivered 100% online with accuracy and transparency.',
     ctaText: 'WhatsApp Us Now',
-    ctaLink: `https://wa.me/917703942779?text=Hi! I need professional services from Mittal Tax Consultancy.`,
+    ctaLink: `https://wa.me/917703942779?text=Hi! I need professional services from MT Consultancy.`,
     ctaSecondary: 'Explore Services',
     ctaSecondaryLink: '/#services',
     backgroundImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80&auto=format&fit=crop',
@@ -688,8 +688,8 @@ export const HERO_SLIDES = [
     subHeading: 'One Firm. Every Need.',
     description:
       'From GST returns to company registration, TDS compliance to project reports — complete solutions for individuals, startups, and growing businesses.',
-    ctaText: 'View Our Services',
-    ctaLink: '/#services',
+    ctaText: 'Enquire on WhatsApp',
+    ctaLink: 'https://wa.me/917703942779?text=Hi! I want to enquire about GST, ITR and business registration with MT Consultancy.',
     ctaSecondary: 'Call Now',
     ctaSecondaryLink: `tel:+917703942779`,
     backgroundImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80&auto=format&fit=crop',
@@ -700,9 +700,9 @@ export const HERO_SLIDES = [
     heading: 'Book a Free',
     subHeading: 'Tax Consultation Today',
     description:
-      'Talk to our qualified professionals about your GST, income tax, or business registration needs. No obligation, no hidden charges — serving Delhi & all of India.',
-    ctaText: 'Book Free Consultation',
-    ctaLink: '/contact',
+      'Talk to our qualified professionals about your GST, income tax, or business registration needs. No obligation, no hidden charges — serving East Delhi & all of India.',
+    ctaText: 'WhatsApp for Free Consultation',
+    ctaLink: 'https://wa.me/917703942779?text=Hi! I would like to book a free consultation with MT Consultancy.',
     ctaSecondary: 'Know More',
     ctaSecondaryLink: '/about',
     backgroundImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1920&q=80&auto=format&fit=crop',
@@ -724,9 +724,9 @@ export const TESTIMONIALS = [
     id: 1,
     name: 'Rajesh Sharma',
     role: 'Business Owner',
-    city: 'Delhi',
+    city: 'East Delhi',
     rating: 5,
-    text: 'Mittal Tax Consultancy handled my GST registration and monthly returns perfectly. Super fast response and transparent pricing. Highly recommended!',
+    text: 'MT Consultancy handled my GST registration and monthly returns perfectly. Super fast response and transparent pricing. Highly recommended!',
   },
   {
     id: 2,
@@ -734,7 +734,7 @@ export const TESTIMONIALS = [
     role: 'Freelance Designer',
     city: 'Mumbai',
     rating: 5,
-    text: 'I was confused about which ITR form to file. The team at Mittal Tax Consultancy guided me through everything online in just 2 days. Great service!',
+    text: 'I was confused about which ITR form to file. The team at MT Consultancy guided me through everything online in just 2 days. Great service!',
   },
   {
     id: 3,
@@ -742,7 +742,7 @@ export const TESTIMONIALS = [
     role: 'Startup Founder',
     city: 'Bangalore',
     rating: 5,
-    text: 'From company registration to DPIIT recognition — Mittal Tax Consultancy handled everything. They\'re our go-to professional firm now.',
+    text: 'From company registration to DPIIT recognition — MT Consultancy handled everything. They\'re our go-to professional firm now.',
   },
   {
     id: 4,
@@ -766,15 +766,15 @@ export const TESTIMONIALS = [
     role: 'HR Manager',
     city: 'Pune',
     rating: 5,
-    text: 'Our company\'s TDS returns, ROC filings, and bookkeeping are all managed by Mittal Tax Consultancy. Reliable, accurate, and always on time.',
+    text: 'Our company\'s TDS returns, ROC filings, and bookkeeping are all managed by MT Consultancy. Reliable, accurate, and always on time.',
   },
 ]
 
 // ─── ABOUT SECTION ────────────────────────────────────────────
 export const ABOUT = {
-  title: 'About Mittal Tax Consultancy',
+  title: 'About MT Consultancy',
   subtitle: 'Your Trusted Financial Partner for Every Business & Professional',
-  description: `Mittal Tax Consultancy is your trusted financial partner delivering expert compliance and accounting solutions with accuracy and transparency. We serve individuals, startups, and growing businesses across India from our base in Delhi.
+  description: `MT Consultancy is your trusted financial partner delivering expert compliance and accounting solutions with accuracy and transparency. We serve individuals, startups, and growing businesses across India from our base in East Delhi.
 
 We provide hassle-free, reliable services in GST, ITR & TDS Filing, Company & MSME Registrations, NGO Accounting & Audits, and Comprehensive Tax Advisory. Our approach is simple: honest advice, transparent pricing, and fast turnaround — delivered right to your WhatsApp.
 
@@ -804,13 +804,13 @@ export const SERVICE_CATEGORIES = ['All', 'GST', 'ITR', 'TDS', 'Incorporation', 
 export const FAQS = [
   {
     id: 1,
-    q: 'What services does Mittal Tax Consultancy offer?',
-    a: 'Mittal Tax Consultancy offers comprehensive tax and compliance services including GST Registration & Returns, Income Tax Return Filing, TDS Compliance, Tax Audit, Company & MSME Registration, ROC Compliance, Project Reports, CA Certificates, Loan Documentation, and F&O / Capital Gain Tax — all 100% online across India.'
+    q: 'What services does MT Consultancy offer?',
+    a: 'MT Consultancy offers comprehensive tax and compliance services including GST Registration & Returns, Income Tax Return Filing, TDS Compliance, Tax Audit, Company & MSME Registration, ROC Compliance, Project Reports, CA Certificates, Loan Documentation, and F&O / Capital Gain Tax — all 100% online across India.'
   },
   {
     id: 2,
-    q: 'How can I contact Mittal Tax Consultancy?',
-    a: 'You can reach us via WhatsApp or email at mittalconsultancy6@gmail.com. Connect with us on LinkedIn at https://www.linkedin.com/in/mittal0444. We are open 24 hours, 7 days a week for your convenience.'
+    q: 'How can I contact MT Consultancy?',
+    a: 'You can reach us via WhatsApp or email at mtconsultancyinfo@gmail.com. Connect with us on LinkedIn at https://www.linkedin.com/in/mittal0444. We are open 24 hours, 7 days a week for your convenience.'
   },
   {
     id: 3,
@@ -820,17 +820,17 @@ export const FAQS = [
   {
     id: 4,
     q: 'How long does company registration take in India?',
-    a: 'Company registration (Private Limited Company) in India typically takes 7–15 working days through the MCA SPICe+ portal. Mittal Tax Consultancy handles the entire process online — DIN, DSC, name approval, and Certificate of Incorporation — with no office visit required.'
+    a: 'Company registration (Private Limited Company) in India typically takes 7–15 working days through the MCA SPICe+ portal. MT Consultancy handles the entire process online — DIN, DSC, name approval, and Certificate of Incorporation — with no office visit required.'
   },
   {
     id: 5,
     q: 'What is the GST registration threshold in India?',
-    a: 'GST registration is mandatory if annual aggregate turnover exceeds: ₹40 lakh for goods suppliers in most states (₹20 lakh in special category states), ₹20 lakh for service providers. E-commerce operators and inter-state suppliers must register regardless of turnover. Contact Mittal Tax Consultancy for a free eligibility assessment.'
+    a: 'GST registration is mandatory if annual aggregate turnover exceeds: ₹40 lakh for goods suppliers in most states (₹20 lakh in special category states), ₹20 lakh for service providers. E-commerce operators and inter-state suppliers must register regardless of turnover. Contact MT Consultancy for a free eligibility assessment.'
   },
   {
     id: 6,
-    q: 'Does Mittal Tax Consultancy provide services across India?',
-    a: 'Yes. While we are based in Delhi (110092), all our services are delivered 100% online. You can share documents via WhatsApp or email from anywhere in India, and we handle the complete process on government portals on your behalf. Hassle-free, reliable services for individuals, startups, and growing businesses.'
+    q: 'Does MT Consultancy provide services across India?',
+    a: 'Yes. While we are based in East Delhi (110092), all our services are delivered 100% online. You can share documents via WhatsApp or email from anywhere in India, and we handle the complete process on government portals on your behalf. Hassle-free, reliable services for individuals, startups, and growing businesses.'
   },
 ]
 

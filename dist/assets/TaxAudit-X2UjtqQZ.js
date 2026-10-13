@@ -1,0 +1,1 @@
+import{o as s,j as o}from"./index-FVfkFnEB.js";import"./router-8H30XJJE.js";import{S as r}from"./ServicePage-LC83MHBA.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const t=()=>{const t=s.find(s=>"tax-audit"===s.slug);return o.jsx(r,{service:t})};export{t as default};

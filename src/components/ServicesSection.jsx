@@ -39,7 +39,7 @@ const buildSearchIndex = () => {
         price: sub.price,
         popular: sub.popular,
         desc: parent.shortDesc,
-        whatsappMsg: `Hi! I need "${sub.name}" from Mittal Tax Consultancy. Please guide me.`,
+        whatsappMsg: `Hi! I need "${sub.name}" from MT Consultancy. Please guide me.`,
       });
     });
   });
@@ -84,7 +84,7 @@ const ServiceCard = ({ service }) => {
       </button>
 
       {/* Subcategories — smooth accordion */}
-      <div className={`overflow-hidden transition-all duration-300 ease-in-out ${open ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div className={`overflow-hidden transition-all duration-300 ease-in-out ${open ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="border-t border-red-100 px-3 sm:px-4 pt-3 pb-4">
           <p className="text-[#667085] text-xs mb-3 leading-snug">{service.shortDesc}</p>
           <p className="text-[#0A132B] text-[10px] font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5">
@@ -92,7 +92,7 @@ const ServiceCard = ({ service }) => {
             All Services — Excl. Govt Fees
           </p>
 
-          <ul className="space-y-1.5">
+          <ul className="space-y-1.5 max-h-60 sm:max-h-72 overflow-y-auto pr-2 scroll-smooth overscroll-contain service-dropdown-scroll">
             {service.subcategories.map((sub, i) => (
               <li key={i} className="flex items-center gap-2 bg-[#FBFAF7] border border-red-100 rounded-lg px-2.5 py-2 hover:border-[#E31937]/40 transition-all group/item">
                 <i className="ri-checkbox-circle-fill text-[#E31937] text-sm flex-shrink-0" />
@@ -102,7 +102,7 @@ const ServiceCard = ({ service }) => {
                 <div className="flex flex-col items-end gap-1 flex-shrink-0 ml-1">
                   <span className="text-[#E31937] font-bold text-[10px] whitespace-nowrap text-right">{sub.price}</span>
                   <a
-                    href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi! I need "${sub.name}" from Mittal Tax Consultancy. Please guide me.`)}`}
+                    href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi! I need "${sub.name}" from MT Consultancy. Please guide me.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -271,7 +271,7 @@ const ServicesSection = () => {
                       {searchResults.length} result{searchResults.length !== 1 ? 's' : ''} for <span className="text-[#E31937]">"{debouncedQuery}"</span>
                     </p>
                   </div>
-                  <ul className="px-3 pb-3 space-y-1.5 max-h-72 overflow-y-auto">
+                  <ul className="px-3 pb-3 space-y-1.5 max-h-72 overflow-y-auto pr-2 scroll-smooth overscroll-contain service-dropdown-scroll">
                     {searchResults.map((result, i) => <SearchResultItem key={i} result={result} />)}
                   </ul>
                 </>
@@ -280,7 +280,7 @@ const ServicesSection = () => {
                   <i className="ri-search-line text-3xl text-[#667085]/40 block mb-2" />
                   <p className="text-[#667085] text-sm">No results for <span className="text-[#E31937] font-semibold">"{debouncedQuery}"</span></p>
                   <a
-                    href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi! I'm looking for "${debouncedQuery}" service. Can Mittal Tax Consultancy help?`)}`}
+                    href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi! I'm looking for "${debouncedQuery}" service. Can MT Consultancy help?`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 mt-3 bg-[#25d366] text-white px-4 py-2 rounded-full font-bold text-xs"
@@ -326,7 +326,7 @@ const ServicesSection = () => {
         <div className="text-center mt-8 sm:mt-10">
           <p className="text-[#667085] text-sm mb-4">Can't find what you're looking for? Our experts are available 24×7.</p>
           <a
-            href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I need help choosing the right professional service from Mittal Tax Consultancy.')}`}
+            href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I need help choosing the right professional service from MT Consultancy.')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-7 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 min-h-[48px]"

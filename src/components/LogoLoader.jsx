@@ -32,7 +32,7 @@ const LogoLoader = ({ onDone }) => {
         opacity: phase === 'fading' ? 0 : 1,
         pointerEvents: phase === 'fading' ? 'none' : 'all',
       }}
-      aria-label="Loading Mittal Tax Consultancy"
+      aria-label="Loading MT Consultancy"
       role="status"
     >
       {/* Logo reveal container — clip-path animates left to right */}
@@ -53,7 +53,7 @@ const LogoLoader = ({ onDone }) => {
         {/* Animated reveal overlay */}
         <img
           src={mtcLogo}
-          alt="Mittal Tax Consultancy"
+          alt="MT Consultancy"
           style={{
             height: 72,
             width: 'auto',

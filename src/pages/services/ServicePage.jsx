@@ -16,14 +16,14 @@ const ServicePage = ({ service }) => {
     </div>
   );
 
-  const pageUrl = `https://mittaltaxconsultancy.in/services/${service.slug}`;
+  const pageUrl = `https://mtconsultancy.in/services/${service.slug}`;
 
   return (
     <>
       <Helmet>
-        <title>{service.title} — {service.shortDesc.slice(0, 50)} | Mittal Tax Consultancy</title>
-        <meta name="description" content={`${service.shortDesc} qualified qualified professionals & professionals. 100% online across India. Starting ${service.startingPrice}.`} />
-        <meta property="og:title" content={`${service.title} | Mittal Tax Consultancy`} />
+        <title>{service.title} — {service.shortDesc.slice(0, 50)} | MT Consultancy</title>
+        <meta name="description" content={`${service.shortDesc} by qualified professionals. 100% online across India. Starting ${service.startingPrice}.`} />
+        <meta property="og:title" content={`${service.title} | MT Consultancy`} />
         <meta property="og:description" content={service.shortDesc} />
         <link rel="canonical" href={pageUrl} />
         <script type="application/ld+json">{JSON.stringify({
@@ -33,8 +33,8 @@ const ServicePage = ({ service }) => {
           "description": service.overview,
           "provider": {
             "@type": "AccountingService",
-            "name": "Mittal Tax Consultancy",
-            "url": "https://mittaltaxconsultancy.in"
+            "name": "MT Consultancy",
+            "url": "https://mtconsultancy.in"
           },
           "areaServed": "India",
           "serviceType": "Financial Advisory",
@@ -49,8 +49,8 @@ const ServicePage = ({ service }) => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mittaltaxconsultancy.in" },
-            { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://mittaltaxconsultancy.in/#services" },
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mtconsultancy.in" },
+            { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://mtconsultancy.in/#services" },
             { "@type": "ListItem", "position": 3, "name": service.title, "item": pageUrl }
           ]
         })}</script>

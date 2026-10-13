@@ -6,10 +6,10 @@ const TermsConditions = () => {
   return (
     <div className="min-h-screen bg-[#FBFAF7] pt-24">
       <Helmet>
-        <title>Terms & Conditions | Mittal Tax Consultancy</title>
-        <meta name="description" content="Terms and Conditions for using Mittal Tax Consultancy services." />
+        <title>Terms & Conditions | MT Consultancy</title>
+        <meta name="description" content="Terms and Conditions for using MT Consultancy services." />
         <meta name="robots" content="noindex, follow" />
-        <link rel="canonical" href="https://mittaltaxconsultancy.in/terms-conditions" />
+        <link rel="canonical" href="https://mtconsultancy.in/terms-conditions" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-[#1a1a1a] to-[#0f0f0f] py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8">
@@ -19,7 +19,7 @@ const TermsConditions = () => {
               Terms & <span className="text-red-600">Conditions</span>
             </h1>
             <p className="text-slate-700 text-lg sm:text-xl max-w-3xl mx-auto">
-              Last Updated: January 2024
+              Last Updated: January 2025
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const TermsConditions = () => {
                 1. Acceptance of Terms
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                By accessing and using the Mittal Tax Consultancy website, you accept and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our website or services.
+                By accessing and using the MT Consultancy website, you accept and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our website or services.
               </p>
             </div>
 
@@ -75,7 +75,7 @@ const TermsConditions = () => {
                 4. Intellectual Property
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                All content on this website, including text, graphics, logos, images, and software, is the property of Mittal Tax Consultancy or its content suppliers and is protected by Indian and international copyright laws. You may not use, reproduce, or distribute any content from this website without our express written permission.
+                All content on this website, including text, graphics, logos, images, and software, is the property of MT Consultancy or its content suppliers and is protected by Indian and international copyright laws. You may not use, reproduce, or distribute any content from this website without our express written permission.
               </p>
             </div>
 
@@ -101,7 +101,7 @@ const TermsConditions = () => {
                 6. Limitation of Liability
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                To the maximum extent permitted by law, Mittal Tax Consultancy shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of this website or reliance on general materials.
+                To the maximum extent permitted by law, MT Consultancy shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of this website or reliance on general materials.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ const TermsConditions = () => {
                 7. Indemnification
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                You agree to indemnify and hold harmless Mittal Tax Consultancy, its consultants, and agents from any claims, damages, liabilities, and expenses arising out of your violation of these Terms and Conditions.
+                You agree to indemnify and hold harmless MT Consultancy, its consultants, and agents from any claims, damages, liabilities, and expenses arising out of your violation of these Terms and Conditions.
               </p>
             </div>
 
@@ -137,7 +137,7 @@ const TermsConditions = () => {
                 10. Governing Law and Jurisdiction
               </h2>
               <p className="text-slate-700 text-[15px] sm:text-[16px] leading-relaxed">
-                These Terms and Conditions shall be governed by and construed in accordance with the laws of India. Any disputes arising out of or relating to these terms shall be subject to the exclusive jurisdiction of the courts in Delhi, India.
+                These Terms and Conditions shall be governed by and construed in accordance with the laws of India. Any disputes arising out of or relating to these terms shall be subject to the exclusive jurisdiction of the courts in Delhi / East Delhi, India.
               </p>
             </div>
 
@@ -158,8 +158,8 @@ const TermsConditions = () => {
                 If you have any questions about these Terms and Conditions, please contact us:
               </p>
               <div className="bg-[#FBFAF7] rounded-lg p-6 space-y-2">
-                <p className="text-slate-700"><strong className="text-[#0A132B]">Mittal Tax Consultancy</strong></p>
-                <p className="text-slate-700">Delhi - 110092, India</p>
+                <p className="text-slate-700"><strong className="text-[#0A132B]">MT Consultancy</strong></p>
+                <p className="text-slate-700">East Delhi - 110092, India</p>
                 <p className="text-slate-700">Email: <a href={`mailto:${BRAND.email}`} className="text-red-600 hover:underline">{BRAND.email}</a></p>
                 <p className="text-slate-700">Phone: <a href={`tel:${BRAND.phone}`} className="text-red-600 hover:underline">{BRAND.phone}</a></p>
               </div>

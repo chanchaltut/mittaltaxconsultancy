@@ -1,1 +1,0 @@
-import{m as s,j as r}from"./index-QHmA1Qrg.js";import"./router-8H30XJJE.js";import{S as o}from"./ServicePage-C6WLgri7.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const e=()=>{const e=s.find(s=>"gst-services"===s.slug);return r.jsx(o,{service:e})};export{e as default};

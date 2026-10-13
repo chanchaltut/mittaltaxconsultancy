@@ -12,7 +12,7 @@ const articles = [
     title: 'How to File ITR Online in 2025: A Complete Guide for Salaried Employees',
     category: 'Income Tax',
     date: 'September 15, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80',
     excerpt: 'Every salaried person earning above ₹3 lakh (new regime) must file an ITR. Here is exactly how to do it step by step, which form to pick, and the most common mistakes to avoid.',
@@ -39,7 +39,7 @@ const articles = [
     title: 'GST Registration in India 2025: Who Needs It, Threshold Limits & How to Apply',
     category: 'GST',
     date: 'September 8, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80',
     excerpt: 'If your business turnover crosses ₹40 lakh (goods) or ₹20 lakh (services), GST registration is mandatory. Here is everything you need to know before applying.',
@@ -64,7 +64,7 @@ const articles = [
     title: 'Old Tax Regime vs New Tax Regime 2025: Which One Saves You More Money?',
     category: 'Income Tax',
     date: 'August 28, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80',
     excerpt: 'The government made the new tax regime the default in 2023. But that doesn\'t mean it\'s better for everyone. Here\'s a straightforward comparison with real numbers to help you decide.',
@@ -89,7 +89,7 @@ const articles = [
     title: 'TDS on Salary, Rent & Professional Fees: Rates, Thresholds & Filing Guide 2025',
     category: 'TDS',
     date: 'August 15, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&q=80',
     excerpt: 'If you\'re paying salary, rent above ₹50,000/month, or professional fees above ₹30,000 — you\'re probably required to deduct TDS. Here\'s a complete guide to the rates, due dates, and filing process.',
@@ -114,7 +114,7 @@ const articles = [
     title: 'Received an Income Tax Notice? Here\'s Exactly What to Do',
     category: 'Income Tax',
     date: 'August 5, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80',
     excerpt: 'Getting an income tax notice is scary — but it\'s not always a big deal. Most notices are informational or routine. Here\'s how to understand which notice you got and how to respond correctly.',
@@ -141,7 +141,7 @@ const articles = [
     title: 'GSTR-1, GSTR-3B & GSTR-9: Which GST Return Do You Need to File?',
     category: 'GST',
     date: 'July 25, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&sat=-100',
     excerpt: 'GST compliance involves multiple returns with different due dates. If you\'re confused about which return to file when, this guide breaks it down in simple terms with actual due dates.',
@@ -168,7 +168,7 @@ const articles = [
     title: 'Sole Proprietorship vs Private Limited Company vs LLP: Which Business Structure Should You Choose?',
     category: 'Business Registration',
     date: 'July 10, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
     excerpt: 'Choosing the right business structure at the start saves you years of headache later. Here\'s a no-fluff comparison of the three most popular options for Indian businesses.',
@@ -193,7 +193,7 @@ const articles = [
     title: 'GST for Freelancers & Consultants in India: Everything You Need to Know',
     category: 'GST',
     date: 'June 20, 2025',
-    author: 'Mittal Tax Consultancy Team',
+    author: 'MT Consultancy Team',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
     excerpt: 'Are you a freelancer or consultant? Here\'s whether you need GST registration, how to raise compliant invoices, and what to do about clients who pay you from abroad.',
@@ -247,12 +247,12 @@ const Insights = () => {
   return (
     <div className="min-h-screen bg-white pt-[60px]">
       <Helmet>
-        <title>Tax & GST Insights | Mittal Tax Consultancy Knowledge Hub</title>
+        <title>Tax & GST Insights | MT Consultancy Knowledge Hub</title>
         <meta name="description" content="Expert insights on Income Tax, GST, TDS, and Company Registration. Read practical guides and updates written by our qualified professional team for Indian businesses and individuals." />
-        <meta name="keywords" content="Income Tax blog, GST updates, CA advice, Tax saving tips, TDS guidelines, Startup compliance, Mittal Tax Consultancy blog, Tax return guide" />
-        <meta property="og:title" content="Tax & GST Insights | Mittal Tax Consultancy" />
+        <meta name="keywords" content="Income Tax blog, GST updates, CA advice, Tax saving tips, TDS guidelines, Startup compliance, MT Consultancy blog, Tax return guide" />
+        <meta property="og:title" content="Tax & GST Insights | MT Consultancy" />
         <meta property="og:description" content="Expert insights on Income Tax, GST, TDS, and Company Registration in India." />
-        <link rel="canonical" href="https://mittaltaxconsultancy.in/insights" />
+        <link rel="canonical" href="https://mtconsultancy.in/insights" />
       </Helmet>
 
 

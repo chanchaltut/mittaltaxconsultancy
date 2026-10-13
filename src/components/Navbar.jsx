@@ -55,9 +55,9 @@ const Navbar = () => {
             <Link
               to="/"
               className="flex items-center gap-2 z-50 flex-shrink-0"
-              aria-label="Mittal Tax Consultancy - Home"
+              aria-label="MT Consultancy - Home"
             >
-              <img src={mtcLogo} alt="Mittal Tax Consultancy" className="h-9 sm:h-11 w-auto" />
+              <img src={mtcLogo} alt="MT Consultancy" className="h-9 sm:h-11 w-auto" />
             </Link>
 
             {/* Desktop Nav */}
@@ -122,7 +122,7 @@ const Navbar = () => {
       >
         {/* Sidebar Logo */}
         <div className="p-4 border-b border-red-100 flex items-center">
-          <img src={mtcLogo} alt="Mittal Tax Consultancy" className="h-8 w-auto" />
+          <img src={mtcLogo} alt="MT Consultancy" className="h-8 w-auto" />
         </div>
 
         {/* Sidebar Nav Links */}
@@ -148,7 +148,7 @@ const Navbar = () => {
           {/* Sidebar CTA */}
           <div className="mt-6 space-y-3">
             <a
-              href={`https://wa.me/${BRAND.whatsapp}`}
+              href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I need assistance from MT Consultancy.')}`}
               onClick={closeSidebar}
               target="_blank"
               rel="noopener noreferrer"
@@ -173,7 +173,7 @@ const Navbar = () => {
         {/* Sidebar Footer */}
         <div className="absolute bottom-0 left-0 right-0 p-5 border-t border-red-100">
           <p className="text-[#667085] text-[11px] text-center">
-            © {new Date().getFullYear()} Mittal Tax Consultancy
+            © {new Date().getFullYear()} MT Consultancy
           </p>
           <p className="text-[#E31937] text-[10px] text-center mt-1">Your Trusted Financial Partner</p>
         </div>

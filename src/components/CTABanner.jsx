@@ -46,7 +46,7 @@ const CTABanner = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <a
-            href={`https://wa.me/${BRAND.whatsapp}`}
+            href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I want a free consultation with MT Consultancy.')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2.5 bg-[#25d366] hover:bg-[#20b858] text-white px-8 py-4 rounded-full font-bold text-sm sm:text-base transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-900/30 group min-h-[52px]"

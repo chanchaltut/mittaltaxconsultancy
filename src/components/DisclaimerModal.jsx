@@ -43,7 +43,7 @@ const DisclaimerModal = () => {
       }`}
       role="dialog"
       aria-modal="true"
-      aria-label="Welcome to Mittal Tax Consultancy"
+      aria-label="Welcome to MT Consultancy"
     >
       {/* Backdrop */}
       <div
@@ -66,7 +66,7 @@ const DisclaimerModal = () => {
 
         {/* Header */}
         <div className="px-4 pt-3 pb-3 flex items-center justify-between border-b border-red-100 flex-shrink-0">
-          <img src={mtcLogo} alt="Mittal Tax Consultancy" className="h-7 sm:h-8 w-auto" />
+          <img src={mtcLogo} alt="MT Consultancy" className="h-7 sm:h-8 w-auto" />
           <button
             onClick={dismiss}
             className="w-8 h-8 rounded-full bg-red-50 hover:bg-[#E31937]/20 flex items-center justify-center text-[#0A132B]/60 hover:text-[#0A132B] transition-all"
@@ -79,7 +79,7 @@ const DisclaimerModal = () => {
         {/* Scrollable body */}
         <div className="overflow-y-auto flex-1 px-4 pt-4 pb-3">
           <h2 className="text-[#0A132B] font-bold text-lg sm:text-xl mb-0.5">
-            Welcome to <span className="text-[#E31937]">Mittal Tax Consultancy</span>
+            Welcome to <span className="text-[#E31937]">MT Consultancy</span>
           </h2>
           <p className="text-[#667085] text-xs mb-4">Your Trusted Financial Partner — Tax, Compliance &amp; Business Support</p>
 
@@ -106,7 +106,7 @@ const DisclaimerModal = () => {
               Explore Services
             </button>
             <a
-              href={`https://wa.me/${BRAND.whatsapp}`}
+              href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I would like to consult with MT Consultancy.')}`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={dismiss}

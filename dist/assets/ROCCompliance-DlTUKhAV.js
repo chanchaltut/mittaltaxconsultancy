@@ -1,1 +1,0 @@
-import{m as o,j as r}from"./index-QHmA1Qrg.js";import"./router-8H30XJJE.js";import{S as s}from"./ServicePage-C6WLgri7.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const e=()=>{const e=o.find(o=>"roc-compliance"===o.slug);return r.jsx(s,{service:e})};export{e as default};

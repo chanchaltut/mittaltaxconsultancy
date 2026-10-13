@@ -185,7 +185,7 @@ const Hero = () => {
 
       {/* ═══ FLOATING WHATSAPP BUTTON (LEFT) ═══ */}
       <a
-        href={`https://wa.me/${BRAND.whatsapp}`}
+        href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I want to chat with MT Consultancy.')}`}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 left-4 sm:left-6 z-40 group hidden sm:flex"

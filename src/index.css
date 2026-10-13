@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   Mittal Tax Consultancy — Global CSS
+   MT Consultancy — Global CSS
    Design System: TaxClue Red #E31937 + White/Ivory
    Mobile-first, ultra-responsive
 ═══════════════════════════════════════════════════════════ */
@@ -83,6 +83,26 @@ img {
 
 /* Firefox */
 * { scrollbar-width: thin; scrollbar-color: #E31937 #ffffff; }
+
+/* Scrollable service dropdown in Y-axis */
+.service-dropdown-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #E31937 #f1f5f9;
+}
+.service-dropdown-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.service-dropdown-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+.service-dropdown-scroll::-webkit-scrollbar-thumb {
+  background: #E31937;
+  border-radius: 4px;
+}
+.service-dropdown-scroll::-webkit-scrollbar-thumb:hover {
+  background: #C01530;
+}
 
 /* ─── FOCUS STYLES (accessibility) ──────────────────────── */
 :focus-visible {

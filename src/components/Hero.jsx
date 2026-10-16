@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaWhatsapp } from 'react-icons/fa';
 import { HERO_SLIDES, BRAND } from '../utils/constants';
 
 const trustBadges = [

@@ -97,7 +97,7 @@ const LogoLoader = ({ onDone }) => {
         <div
           style={{
             height: '100%',
-            background: '#E31937',
+            background: '#C01530',
             borderRadius: 99,
             width: phase === 'filling' ? '0%' : '100%',
             transition: phase === 'filling' ? 'width 1.6s cubic-bezier(0.4, 0, 0.2, 1) 0.1s' : 'none',

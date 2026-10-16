@@ -18,7 +18,7 @@ const ExpertCA = () => {
             <div className="section-tag">Why Choose Us</div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-5 leading-tight">
               Why{' '}
-              <span className="text-[#E31937]">MT Consultancy</span>{' '}
+              <span className="text-[#C01530]">MT Consultancy</span>{' '}
               is India's Trusted Trusted Partner
             </h2>
 
@@ -32,7 +32,7 @@ const ExpertCA = () => {
               {whyFeatures.map((feature, i) => (
                 <div
                   key={i}
-                  className="flex items-start gap-3 bg-[#FBFAF7] border border-red-100 rounded-xl p-3 sm:p-4 text-left hover:border-[#E31937]/40 transition-colors duration-200"
+                  className="flex items-start gap-3 bg-[#FBFAF7] border border-red-100 rounded-xl p-3 sm:p-4 text-left hover:border-[#C01530]/40 transition-colors duration-200"
                 >
                   <i className={`text-xl sm:text-2xl flex-shrink-0 mt-0.5 text-red-600 ${feature.icon}`}></i>
                   <div>
@@ -49,14 +49,14 @@ const ExpertCA = () => {
                 href={`https://wa.me/${BRAND.whatsapp}?text=Hi! I want to get started with MT Consultancy.`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 group min-h-[48px]"
+                className="inline-flex items-center justify-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 group min-h-[48px]"
               >
                 GET STARTED
                 <FaArrowRight className="text-sm group-hover:translate-x-1 transition-transform" />
               </a>
               <a
                 href="/about"
-                className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-red-100 hover:border-[#E31937] text-[#0A132B] hover:text-[#E31937] px-6 py-3.5 rounded-full font-semibold text-sm transition-all duration-200 min-h-[48px]"
+                className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-red-100 hover:border-[#C01530] text-[#0A132B] hover:text-[#C01530] px-6 py-3.5 rounded-full font-semibold text-sm transition-all duration-200 min-h-[48px]"
               >
                 Learn More About Us
               </a>
@@ -78,7 +78,7 @@ const ExpertCA = () => {
             {/* Floating badge */}
             <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 bg-white/90 backdrop-blur-sm border border-red-100 rounded-2xl p-4 sm:p-5">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-[#E31937] rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-[#C01530] rounded-xl flex items-center justify-center flex-shrink-0">
                   <i className="ri-trophy-line text-2xl text-white"></i>
                 </div>
                 <div>

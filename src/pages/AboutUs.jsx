@@ -31,7 +31,7 @@ const AboutUs = () => {
       <section className="bg-white dot-bg pt-32 pb-16 sm:pt-40 sm:pb-24 border-b border-red-100">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#0A132B] mb-6">
-            About <span className="text-[#E31937]">MT Consultancy</span>
+            About <span className="text-[#C01530]">MT Consultancy</span>
           </h1>
           <p className="text-[#667085] text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             We are a dedicated team of qualified professionals & experts making taxation, compliance, and corporate registrations seamless, 100% online, and accessible across India.

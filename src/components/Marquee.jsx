@@ -18,7 +18,7 @@ const Marquee = () => {
               key={i}
               className="flex-shrink-0 flex items-center gap-2 px-4 text-[#0A132B]/80 text-[11px] font-medium whitespace-nowrap"
             >
-              <i className="ri-arrow-right-s-line text-[#E31937] text-xs" aria-hidden="true" />
+              <i className="ri-arrow-right-s-line text-[#C01530] text-xs" aria-hidden="true" />
               {item}
             </span>
           ))}

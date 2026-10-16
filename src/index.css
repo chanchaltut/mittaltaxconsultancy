@@ -10,10 +10,10 @@
 
 /* ─── CSS CUSTOM PROPERTIES ──────────────────────────────── */
 :root {
-  /* TaxClue-inspired brand tokens */
-  --color-red:        #E31937;   /* Primary brand red */
-  --color-red-dark:   #C01530;   /* Hover / darker red */
-  --color-red-soft:   rgba(227,25,55,.10);
+  /* MT Consultancy brand tokens — Refined corporate red (less chamkila) */
+  --color-red:        #C01530;   /* Primary brand red - refined corporate crimson */
+  --color-red-dark:   #9E0E25;   /* Hover / deeper red */
+  --color-red-soft:   rgba(192,21,48,.10);
   --color-navy:       #0A132B;   /* Primary text / headings */
   --color-navy-700:   #0F1A38;
   --color-navy-600:   #1B2540;
@@ -58,8 +58,13 @@ body {
 
 /* ─── TOUCH TARGETS ──────────────────────────────────────── */
 button, a, [role="button"] {
-  min-height: 44px;
   cursor: pointer;
+}
+button:not(.no-min-h), a:not(.no-min-h), [role="button"]:not(.no-min-h) {
+  min-height: 44px;
+}
+.no-min-h {
+  min-height: 0 !important;
 }
 
 /* ─── LINKS ──────────────────────────────────────────────── */
@@ -82,12 +87,12 @@ img {
 ::-webkit-scrollbar-thumb:hover { background: var(--color-red-dark); }
 
 /* Firefox */
-* { scrollbar-width: thin; scrollbar-color: #E31937 #ffffff; }
+* { scrollbar-width: thin; scrollbar-color: var(--color-red) #ffffff; }
 
 /* Scrollable service dropdown in Y-axis */
 .service-dropdown-scroll {
   scrollbar-width: thin;
-  scrollbar-color: #E31937 #f1f5f9;
+  scrollbar-color: var(--color-red) #f1f5f9;
 }
 .service-dropdown-scroll::-webkit-scrollbar {
   width: 5px;
@@ -97,11 +102,11 @@ img {
   border-radius: 4px;
 }
 .service-dropdown-scroll::-webkit-scrollbar-thumb {
-  background: #E31937;
+  background: var(--color-red);
   border-radius: 4px;
 }
 .service-dropdown-scroll::-webkit-scrollbar-thumb:hover {
-  background: #C01530;
+  background: var(--color-red-dark);
 }
 
 /* ─── FOCUS STYLES (accessibility) ──────────────────────── */
@@ -314,7 +319,7 @@ img {
 
 /* ─── GRADIENT TEXT ──────────────────────────────────────── */
 .gradient-text {
-  background: linear-gradient(135deg, #E31937 0%, #FF9933 100%);
+  background: linear-gradient(135deg, #C01530 0%, #FF9933 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -322,7 +327,7 @@ img {
 
 /* ─── DOT PATTERN BACKGROUND ─────────────────────────────── */
 .dot-bg {
-  background-image: radial-gradient(circle, rgba(227,25,55,0.08) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgba(192,21,48,0.08) 1px, transparent 1px);
   background-size: 28px 28px;
 }
 

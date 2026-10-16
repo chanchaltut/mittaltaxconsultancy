@@ -37,25 +37,25 @@ const socialLinks = [
 
 const contactItems = [
   {
-    icon: <FaMapMarkerAlt className="text-[#E31937] text-base flex-shrink-0 mt-0.5" />,
+    icon: <FaMapMarkerAlt className="text-[#C01530] text-base flex-shrink-0 mt-0.5" />,
     content: <span className="text-[#667085] text-sm leading-relaxed">{BRAND.address}</span>,
   },
   {
-    icon: <i className="ri-time-line text-[#E31937] text-base flex-shrink-0 mt-0.5" />,
+    icon: <i className="ri-time-line text-[#C01530] text-base flex-shrink-0 mt-0.5" />,
     content: <span className="text-[#667085] text-sm leading-relaxed">{BRAND.timings}</span>,
   },
   {
-    icon: <FaPhone className="text-[#E31937] text-sm flex-shrink-0 mt-0.5" />,
+    icon: <FaPhone className="text-[#C01530] text-sm flex-shrink-0 mt-0.5" />,
     content: (
-      <a href={`tel:${BRAND.phone}`} className="footer-link text-[#667085] text-sm hover:text-[#E31937] transition-colors">
+      <a href={`tel:${BRAND.phone}`} className="footer-link text-[#667085] text-sm hover:text-[#C01530] transition-colors">
         {BRAND.phone}
       </a>
     ),
   },
   {
-    icon: <FaEnvelope className="text-[#E31937] text-sm flex-shrink-0 mt-0.5" />,
+    icon: <FaEnvelope className="text-[#C01530] text-sm flex-shrink-0 mt-0.5" />,
     content: (
-      <a href={`mailto:${BRAND.email}`} className="footer-link text-[#667085] text-sm hover:text-[#E31937] transition-colors break-all">
+      <a href={`mailto:${BRAND.email}`} className="footer-link text-[#667085] text-sm hover:text-[#C01530] transition-colors break-all">
         {BRAND.email}
       </a>
     ),
@@ -86,15 +86,15 @@ const Footer = () => {
             </Link>
 
             <p className="text-[#667085] text-sm leading-relaxed mb-5">
-              <span className="text-[#E31937] font-semibold">Your Trusted Financial Partner</span> — expert
+              <span className="text-[#C01530] font-semibold">Your Trusted Financial Partner</span> — expert
               compliance and accounting solutions delivered with accuracy and transparency. GST, ITR & TDS Filing,
               Business Registrations, Audits & Tax Advisory across India.
             </p>
 
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-[#E31937]/10 border border-red-200 rounded-full px-3 py-1.5 mb-5">
-              <i className="ri-award-line text-[#E31937] text-sm" />
-              <span className="text-[#E31937] text-[10px] font-bold tracking-wider">Qualified Professionals</span>
+            <div className="inline-flex items-center gap-2 bg-[#C01530]/10 border border-red-200 rounded-full px-3 py-1.5 mb-5">
+              <i className="ri-award-line text-[#C01530] text-sm" />
+              <span className="text-[#C01530] text-[10px] font-bold tracking-wider">Qualified Professionals</span>
             </div>
 
             {/* Social Icons */}
@@ -106,7 +106,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="w-9 h-9 rounded-full bg-white border border-red-100 flex items-center justify-center text-[#667085] hover:bg-[#E31937] hover:text-white hover:border-[#E31937] transition-all duration-200"
+                  className="w-9 h-9 rounded-full bg-white border border-red-100 flex items-center justify-center text-[#667085] hover:bg-[#C01530] hover:text-white hover:border-[#C01530] transition-all duration-200"
                 >
                   <s.icon className="text-xs" />
                 </a>
@@ -117,7 +117,7 @@ const Footer = () => {
           {/* ── Col 2: Quick Links ── */}
           <div>
             <h3 className="text-[#0A132B] font-bold text-sm uppercase tracking-wider mb-5 flex items-center gap-2">
-              <i className="ri-links-line text-[#E31937]" />
+              <i className="ri-links-line text-[#C01530]" />
               Quick Links
             </h3>
             <ul className="space-y-2.5">
@@ -125,9 +125,9 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     to={link.href}
-                    className="flex items-center gap-2 text-[#667085] text-sm hover:text-[#E31937] transition-colors group"
+                    className="flex items-center gap-2 text-[#667085] text-sm hover:text-[#C01530] transition-colors group"
                   >
-                    <i className="ri-arrow-right-s-line text-[#E31937] opacity-0 group-hover:opacity-100 transition-opacity -ml-1 flex-shrink-0" />
+                    <i className="ri-arrow-right-s-line text-[#C01530] opacity-0 group-hover:opacity-100 transition-opacity -ml-1 flex-shrink-0" />
                     {link.name}
                   </Link>
                 </li>
@@ -138,7 +138,7 @@ const Footer = () => {
           {/* ── Col 3: Services ── */}
           <div>
             <h3 className="text-[#0A132B] font-bold text-sm uppercase tracking-wider mb-5 flex items-center gap-2">
-              <i className="ri-briefcase-4-line text-[#E31937]" />
+              <i className="ri-briefcase-4-line text-[#C01530]" />
               Our Services
             </h3>
             <ul className="space-y-2.5">
@@ -146,9 +146,9 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     to={link.href}
-                    className="flex items-center gap-2 text-[#667085] text-sm hover:text-[#E31937] transition-colors group"
+                    className="flex items-center gap-2 text-[#667085] text-sm hover:text-[#C01530] transition-colors group"
                   >
-                    <i className="ri-arrow-right-s-line text-[#E31937] opacity-0 group-hover:opacity-100 transition-opacity -ml-1 flex-shrink-0" />
+                    <i className="ri-arrow-right-s-line text-[#C01530] opacity-0 group-hover:opacity-100 transition-opacity -ml-1 flex-shrink-0" />
                     {link.name}
                   </Link>
                 </li>
@@ -159,7 +159,7 @@ const Footer = () => {
           {/* ── Col 4: Contact + Newsletter ── */}
           <div>
             <h3 className="text-[#0A132B] font-bold text-sm uppercase tracking-wider mb-5 flex items-center gap-2">
-              <i className="ri-contacts-line text-[#E31937]" />
+              <i className="ri-contacts-line text-[#C01530]" />
               Contact Us
             </h3>
 
@@ -175,7 +175,7 @@ const Footer = () => {
             {/* Newsletter */}
             <div className="bg-white border border-red-100 rounded-2xl p-4">
               <h4 className="text-[#0A132B] font-semibold text-sm mb-3 flex items-center gap-2">
-                <i className="ri-mail-send-line text-[#E31937]" />
+                <i className="ri-mail-send-line text-[#C01530]" />
                 Tax Updates Newsletter
               </h4>
               <form onSubmit={handleNewsletter} className="flex flex-col gap-2">
@@ -185,11 +185,11 @@ const Footer = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="your@email.com"
                   required
-                  className="bg-[#FBFAF7] border border-red-100 focus:border-[#E31937] rounded-lg px-3 py-2.5 text-[#0A132B] text-sm focus:outline-none transition-colors placeholder-[#667085]"
+                  className="bg-[#FBFAF7] border border-red-100 focus:border-[#C01530] rounded-lg px-3 py-2.5 text-[#0A132B] text-sm focus:outline-none transition-colors placeholder-[#667085]"
                 />
                 <button
                   type="submit"
-                  className="flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-4 py-2.5 rounded-lg font-bold text-sm transition-colors"
+                  className="flex items-center justify-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-4 py-2.5 rounded-lg font-bold text-sm transition-colors"
                 >
                   <FaPaperPlane className="text-xs" />
                   Subscribe
@@ -209,15 +209,15 @@ const Footer = () => {
               © {new Date().getFullYear()} MT Consultancy. All Rights Reserved. | We Issue Proper GST Invoice for Every Service
             </p>
             <p className="text-[11px] text-[#667085]/60 text-center sm:text-left">
-              Developed by <a href="https://codehyphen.in" target="_blank" rel="noopener noreferrer" className="text-[#667085]/80 hover:text-[#E31937] transition-colors font-medium">Code Hyphen</a>
+              Developed by <a href="https://codehyphen.in" target="_blank" rel="noopener noreferrer" className="text-[#667085]/80 hover:text-[#C01530] transition-colors font-medium">Code Hyphen</a>
             </p>
           </div>
           <div className="flex items-center gap-4 sm:gap-6">
-            <Link to="/privacy-policy" className="text-[#667085] hover:text-[#E31937] text-xs sm:text-sm transition-colors">
+            <Link to="/privacy-policy" className="text-[#667085] hover:text-[#C01530] text-xs sm:text-sm transition-colors">
               Privacy Policy
             </Link>
             <span className="text-red-200">|</span>
-            <Link to="/terms-conditions" className="text-[#667085] hover:text-[#E31937] text-xs sm:text-sm transition-colors">
+            <Link to="/terms-conditions" className="text-[#667085] hover:text-[#C01530] text-xs sm:text-sm transition-colors">
               Terms &amp; Conditions
             </Link>
           </div>

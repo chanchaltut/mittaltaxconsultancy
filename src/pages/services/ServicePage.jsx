@@ -69,11 +69,11 @@ const ServicePage = ({ service }) => {
       <nav className="bg-white border-b border-red-100 pt-20 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto py-3">
           <ol className="flex items-center gap-2 text-xs text-[#64748b]" aria-label="Breadcrumb">
-            <li><Link to="/" className="hover:text-[#E31937] transition-colors">Home</Link></li>
+            <li><Link to="/" className="hover:text-[#C01530] transition-colors">Home</Link></li>
             <li aria-hidden="true">/</li>
-            <li><a href="/#services" className="hover:text-[#E31937] transition-colors">Services</a></li>
+            <li><a href="/#services" className="hover:text-[#C01530] transition-colors">Services</a></li>
             <li aria-hidden="true">/</li>
-            <li className="text-[#E31937] font-semibold" aria-current="page">{service.title}</li>
+            <li className="text-[#C01530] font-semibold" aria-current="page">{service.title}</li>
           </ol>
         </div>
       </nav>
@@ -99,7 +99,7 @@ const ServicePage = ({ service }) => {
               { label: 'By', value: 'ICAI CA' },
             ].map((stat, i) => (
               <div key={i} className="bg-[#FBFAF7] border border-red-100 rounded-xl px-4 py-2.5 text-center">
-                <p className="text-[#E31937] font-bold text-sm sm:text-base">{stat.value}</p>
+                <p className="text-[#C01530] font-bold text-sm sm:text-base">{stat.value}</p>
                 <p className="text-[#64748b] text-[10px] sm:text-xs mt-0.5">{stat.label}</p>
               </div>
             ))}
@@ -118,7 +118,7 @@ const ServicePage = ({ service }) => {
             </a>
             <a
               href={`tel:${BRAND.phone}`}
-              className="inline-flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-7 py-4 rounded-full font-bold text-sm sm:text-base transition-all hover:-translate-y-0.5 min-h-[52px]"
+              className="inline-flex items-center justify-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-7 py-4 rounded-full font-bold text-sm sm:text-base transition-all hover:-translate-y-0.5 min-h-[52px]"
             >
               <><i className="ri-phone-line mr-2"></i> Call Now</>
             </a>
@@ -136,9 +136,9 @@ const ServicePage = ({ service }) => {
             {service.services.map((item, i) => (
               <div
                 key={i}
-                className="flex items-start gap-3 bg-white border border-red-100 hover:border-[#E31937]/40 rounded-xl p-3 sm:p-4 transition-colors"
+                className="flex items-start gap-3 bg-white border border-red-100 hover:border-[#C01530]/40 rounded-xl p-3 sm:p-4 transition-colors"
               >
-                <i className="ri-checkbox-circle-fill text-[#E31937] flex-shrink-0 text-xl mt-0.5" />
+                <i className="ri-checkbox-circle-fill text-[#C01530] flex-shrink-0 text-xl mt-0.5" />
                 <span className="text-[#0A132B] text-sm sm:text-base leading-snug">{item}</span>
               </div>
             ))}
@@ -156,7 +156,7 @@ const ServicePage = ({ service }) => {
           <a
             href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(service.whatsappMsg)}`}
             target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-7 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 min-h-[48px]"
+            className="inline-flex items-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-7 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 min-h-[48px]"
           >
             <><i className="ri-chat-3-line mr-2"></i> Get Free Quote</>
           </a>

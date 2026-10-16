@@ -28,7 +28,7 @@ const TeamSection = () => {
         <div className="text-center mb-12 sm:mb-14">
           <div className="section-tag">Our Team</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-4 leading-tight">
-            Meet Our <span className="text-[#E31937]">Founder</span>
+            Meet Our <span className="text-[#C01530]">Founder</span>
           </h2>
           <p className="text-[#667085] text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
             A qualified professional with deep expertise across all areas of taxation, compliance, and corporate law.
@@ -37,7 +37,7 @@ const TeamSection = () => {
 
         {/* Single centered Founder Card */}
         <div className="flex justify-center">
-          <article className="bg-white border border-red-100 rounded-2xl overflow-hidden hover:border-[#E31937]/40 transition-all duration-300 hover:shadow-xl w-full max-w-md">
+          <article className="bg-white border border-red-100 rounded-2xl overflow-hidden hover:border-[#C01530]/40 transition-all duration-300 hover:shadow-xl w-full max-w-md">
 
             {/* Professional Illustration */}
             <div className="relative h-64 sm:h-72 overflow-hidden">
@@ -45,7 +45,7 @@ const TeamSection = () => {
             </div>
 
             {/* Info */}
-            <div className="p-6 sm:p-8 border-t-2 border-[#E31937]">
+            <div className="p-6 sm:p-8 border-t-2 border-[#C01530]">
               <div className="flex items-center gap-2.5 mb-1.5 flex-wrap">
                 <h3 className="text-[#0A132B] font-bold text-xl sm:text-2xl">{founder.name}</h3>
                 <a
@@ -59,7 +59,7 @@ const TeamSection = () => {
                   <FaLinkedinIn className="text-sm" />
                 </a>
               </div>
-              <p className="text-[#E31937] text-sm font-semibold tracking-wide mb-2">{founder.role}</p>
+              <p className="text-[#C01530] text-sm font-semibold tracking-wide mb-2">{founder.role}</p>
               <p className="text-[#667085] text-sm leading-relaxed mb-6">{founder.description}</p>
 
               {/* Qualifications */}
@@ -70,7 +70,7 @@ const TeamSection = () => {
                   </span>
                 )}
                 {founder.experience && (
-                  <span className="bg-[#eff6ff] border border-red-200 text-[#E31937] text-[11px] px-3 py-1 rounded-full font-medium">
+                  <span className="bg-[#eff6ff] border border-red-200 text-[#C01530] text-[11px] px-3 py-1 rounded-full font-medium">
                     {founder.experience} Experience
                   </span>
                 )}

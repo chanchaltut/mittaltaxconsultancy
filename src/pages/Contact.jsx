@@ -87,7 +87,7 @@ const Contact = () => {
       <section className="bg-white dot-bg pt-32 pb-16 sm:pt-40 sm:pb-24 border-b border-red-100">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#0A132B] mb-6">
-            Contact <span className="text-[#E31937]">Us</span>
+            Contact <span className="text-[#C01530]">Us</span>
           </h1>
           <p className="text-[#667085] text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Get in touch with our qualified professional experts at MT Consultancy for any taxation or compliance assistance. We provide 100% online services across India.
@@ -104,13 +104,13 @@ const Contact = () => {
             {contactInfo.map((info, i) => (
               <div key={i} className="bg-[#FBFAF7] border border-red-100 rounded-xl p-5 hover:border-red-300 transition-colors">
                 <div className="flex items-start gap-4">
-                  <div className="text-[#E31937] text-xl mt-1 flex-shrink-0">{info.icon}</div>
+                  <div className="text-[#C01530] text-xl mt-1 flex-shrink-0">{info.icon}</div>
                   <div>
                     <h3 className="text-[#0A132B] font-bold mb-1">{info.title}</h3>
                     {info.details.map((detail, idx) => (
                       <div key={idx}>
                         {info.link ? (
-                          <a href={info.link} target={info.link.includes('wa.me') ? '_blank' : undefined} rel={info.link.includes('wa.me') ? 'noopener noreferrer' : undefined} className="text-[#667085] hover:text-[#E31937] text-sm transition-colors">
+                          <a href={info.link} target={info.link.includes('wa.me') ? '_blank' : undefined} rel={info.link.includes('wa.me') ? 'noopener noreferrer' : undefined} className="text-[#667085] hover:text-[#C01530] text-sm transition-colors">
                             {detail}
                           </a>
                         ) : (
@@ -143,7 +143,7 @@ const Contact = () => {
 
             {status === 'error' && (
               <div className="bg-red-50 border border-red-200 text-red-900 rounded-xl p-4 sm:p-5 flex items-start gap-3 mb-6 animate-fadeIn">
-                <FaExclamationCircle className="text-[#E31937] text-xl flex-shrink-0 mt-0.5" />
+                <FaExclamationCircle className="text-[#C01530] text-xl flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-base text-red-900 mb-1">Failed to Deliver Message</h4>
                   <p className="text-sm text-red-800 leading-relaxed mb-3">
@@ -165,22 +165,22 @@ const Contact = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-[#667085] text-sm font-semibold mb-2">Full Name *</label>
-                  <input type="text" name="name" value={formData.name} onChange={handleChange} required className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#E31937]" placeholder="Your Name" />
+                  <input type="text" name="name" value={formData.name} onChange={handleChange} required className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#C01530]" placeholder="Your Name" />
                 </div>
                 <div>
                   <label className="block text-[#667085] text-sm font-semibold mb-2">Phone Number *</label>
-                  <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#E31937]" placeholder="Phone Number" />
+                  <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#C01530]" placeholder="Phone Number" />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-[#667085] text-sm font-semibold mb-2">Email Address *</label>
-                  <input type="email" name="email" value={formData.email} onChange={handleChange} required className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#E31937]" placeholder="Your Email" />
+                  <input type="email" name="email" value={formData.email} onChange={handleChange} required className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#C01530]" placeholder="Your Email" />
                 </div>
                 <div>
                   <label className="block text-[#667085] text-sm font-semibold mb-2">Service Required</label>
-                  <select name="service" value={formData.service} onChange={handleChange} className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#E31937]">
+                  <select name="service" value={formData.service} onChange={handleChange} className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#C01530]">
                     <option value="">Select Service Area</option>
                     {SERVICE_CATEGORIES.map((cat, i) => (
                       <option key={i} value={cat}>{cat}</option>
@@ -191,13 +191,13 @@ const Contact = () => {
 
               <div>
                 <label className="block text-[#667085] text-sm font-semibold mb-2">Message *</label>
-                <textarea name="message" value={formData.message} onChange={handleChange} required rows="5" className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#E31937] resize-none" placeholder="How can we help you?" />
+                <textarea name="message" value={formData.message} onChange={handleChange} required rows="5" className="w-full bg-white border border-red-100 rounded-lg px-4 py-3 text-[#0A132B] focus:outline-none focus:border-[#C01530] resize-none" placeholder="How can we help you?" />
               </div>
 
               <button
                 type="submit"
                 disabled={status === 'submitting'}
-                className="w-full sm:w-auto bg-[#E31937] hover:bg-[#C01530] text-white px-8 py-3.5 rounded-full font-bold transition-colors flex items-center justify-center gap-2 disabled:opacity-70 min-h-[48px]"
+                className="w-full sm:w-auto bg-[#C01530] hover:bg-[#9E0E25] text-white px-8 py-3.5 rounded-full font-bold transition-colors flex items-center justify-center gap-2 disabled:opacity-70 min-h-[48px]"
               >
                 {status === 'submitting' ? (
                   <>

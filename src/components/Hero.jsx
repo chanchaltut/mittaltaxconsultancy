@@ -96,14 +96,14 @@ const Hero = () => {
         <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-32 pb-20 sm:pt-36 sm:pb-24 text-center">
 
           {/* Trust badge pill */}
-          <div className="inline-flex items-center gap-2 bg-[#E31937]/10 border border-red-200 text-[#E31937] text-xs sm:text-sm font-semibold px-4 py-2 rounded-full mb-6 sm:mb-8 animate-fadeInUp">
+          <div className="inline-flex items-center gap-2 bg-[#C01530]/10 border border-red-200 text-[#C01530] text-xs sm:text-sm font-semibold px-4 py-2 rounded-full mb-6 sm:mb-8 animate-fadeInUp">
             <><i className="ri-trophy-line mr-2"></i> {slide.badge}</>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#0A132B] leading-[1.1] mb-4 sm:mb-6 animate-fadeInUp animation-delay-100">
             {slide.heading}{' '}
-            <span className="text-[#E31937]">{slide.subHeading}</span>
+            <span className="text-[#C01530]">{slide.subHeading}</span>
           </h1>
 
           {/* Description */}
@@ -122,7 +122,7 @@ const Hero = () => {
             </button>
             <button
               onClick={() => handleCTA(slide.ctaSecondaryLink)}
-              className="w-full sm:w-auto flex items-center justify-center gap-2.5 bg-transparent border-2 border-[#E31937] text-[#E31937] hover:bg-[#E31937] hover:text-white px-7 sm:px-8 py-4 rounded-full font-bold text-sm sm:text-base transition-all duration-200 hover:-translate-y-0.5 min-h-[52px]"
+              className="w-full sm:w-auto flex items-center justify-center gap-2.5 bg-transparent border-2 border-[#C01530] text-[#C01530] hover:bg-[#9E0E25] hover:text-white px-7 sm:px-8 py-4 rounded-full font-bold text-sm sm:text-base transition-all duration-200 hover:-translate-y-0.5 min-h-[52px]"
             >
               {slide.ctaSecondary}
             </button>
@@ -135,45 +135,54 @@ const Hero = () => {
                 key={i}
                 className="flex items-center gap-1.5 bg-white/80 border border-red-100 rounded-full px-3 sm:px-4 py-1.5 sm:py-2"
               >
-                <i className={`text-sm sm:text-base text-[#E31937] ${badge.icon}`}></i>
+                <i className={`text-sm sm:text-base text-[#C01530] ${badge.icon}`}></i>
                 <span className="text-[#0A132B] text-[11px] sm:text-xs font-semibold whitespace-nowrap">{badge.text}</span>
               </div>
             ))}
           </div>
-        </div>
 
-        {/* Central Navigation Controls */}
-        <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 bg-white/95 backdrop-blur-md px-3.5 py-2 rounded-full shadow-[0_4px_20px_rgba(227,25,55,0.08)] border border-red-200">
-          <button
-            onClick={prevSlide}
-            className="flex items-center justify-center w-8 h-8 rounded-full bg-white border border-red-200 text-[#0A132B] hover:bg-[#E31937] hover:text-white hover:border-[#E31937] transition-all duration-200 shadow-xs"
-            aria-label="Previous slide"
-          >
-            <FaChevronLeft className="text-xs" />
-          </button>
-          
-          <div className="flex items-center gap-2">
-            {HERO_SLIDES.map((_, i) => (
+          {/* Central Navigation Controls — Sleek, compact & with generous margin top */}
+          <div className="mt-7 sm:mt-9 flex items-center justify-center animate-fadeInUp animation-delay-400">
+            <div className="inline-flex items-center gap-2 bg-white/95 backdrop-blur-md px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full shadow-[0_2px_12px_rgba(192,21,48,0.08)] border border-red-100">
               <button
-                key={i}
-                onClick={() => goToSlide(i)}
-                className={`rounded-full transition-all duration-300 ${
-                  i === currentSlide
-                    ? 'bg-[#E31937] border border-[#E31937] w-7 sm:w-8 h-2.5 shadow-sm shadow-red-500/25'
-                    : 'bg-white border border-[#E31937]/50 w-2.5 h-2.5 hover:border-[#E31937] hover:scale-110 shadow-xs'
-                }`}
-                aria-label={`Go to slide ${i + 1}`}
-              />
-            ))}
-          </div>
+                onClick={prevSlide}
+                className="flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-white border border-red-200 text-[#0A132B] hover:bg-[#9E0E25] hover:text-white hover:border-[#C01530] transition-all duration-200 no-min-h !min-h-0 min-h-0 p-0 shadow-xs"
+                style={{ minHeight: 'unset' }}
+                aria-label="Previous slide"
+              >
+                <FaChevronLeft className="text-[9px] sm:text-[10px]" />
+              </button>
+              
+              <div className="flex items-center gap-1.5 px-1">
+                {HERO_SLIDES.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => goToSlide(i)}
+                    className={`rounded-full transition-all duration-300 no-min-h !min-h-0 min-h-0 p-0 block cursor-pointer ${
+                      i === currentSlide
+                        ? 'bg-[#C01530] border border-[#C01530] shadow-xs'
+                        : 'bg-white border border-[#C01530]/40 hover:border-[#C01530] hover:scale-110'
+                    }`}
+                    style={{
+                      minHeight: 'unset',
+                      height: '5px',
+                      width: i === currentSlide ? '20px' : '5px'
+                    }}
+                    aria-label={`Go to slide ${i + 1}`}
+                  />
+                ))}
+              </div>
 
-          <button
-            onClick={nextSlide}
-            className="flex items-center justify-center w-8 h-8 rounded-full bg-white border border-red-200 text-[#0A132B] hover:bg-[#E31937] hover:text-white hover:border-[#E31937] transition-all duration-200 shadow-xs"
-            aria-label="Next slide"
-          >
-            <FaChevronRight className="text-xs" />
-          </button>
+              <button
+                onClick={nextSlide}
+                className="flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-white border border-red-200 text-[#0A132B] hover:bg-[#9E0E25] hover:text-white hover:border-[#C01530] transition-all duration-200 no-min-h !min-h-0 min-h-0 p-0 shadow-xs"
+                style={{ minHeight: 'unset' }}
+                aria-label="Next slide"
+              >
+                <FaChevronRight className="text-[9px] sm:text-[10px]" />
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </>

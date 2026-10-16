@@ -69,8 +69,8 @@ const Navbar = () => {
                       to={link.href}
                       className={`transition-colors duration-200 ${
                         isActive(link.href)
-                          ? 'text-[#E31937]'
-                          : 'text-[#0A132B] hover:text-[#E31937]'
+                          ? 'text-[#C01530]'
+                          : 'text-[#0A132B] hover:text-[#9E0E25]'
                       }`}
                     >
                       {link.name.toUpperCase()}
@@ -82,7 +82,7 @@ const Navbar = () => {
               {/* Desktop CTA */}
               <a
                 href={`tel:${BRAND.phone}`}
-                className="flex items-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-5 py-2.5 rounded-full font-bold text-[13px] transition-all duration-200 hover:shadow-lg hover:shadow-red-900/25 whitespace-nowrap"
+                className="flex items-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-5 py-2.5 rounded-full font-bold text-[13px] transition-all duration-200 hover:shadow-lg hover:shadow-red-900/25 whitespace-nowrap"
               >
                 <FaPhone className="text-xs" />
                 FREE CONSULTATION
@@ -91,7 +91,7 @@ const Navbar = () => {
 
             {/* Mobile Hamburger */}
             <button
-              className="lg:hidden text-[#0A132B] text-2xl p-2 z-50 hover:text-[#E31937] transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+              className="lg:hidden text-[#0A132B] text-2xl p-2 z-50 hover:text-[#9E0E25] transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
               aria-label={isSidebarOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={isSidebarOpen}
@@ -135,8 +135,8 @@ const Navbar = () => {
                   onClick={closeSidebar}
                   className={`block py-3 px-4 rounded-xl text-[15px] font-semibold transition-all duration-200 ${
                     isActive(link.href)
-                      ? 'bg-[#E31937]/10 text-[#E31937] border border-red-200'
-                      : 'text-[#0A132B] hover:bg-[#FBFAF7] hover:text-[#E31937]'
+                      ? 'bg-[#C01530]/10 text-[#C01530] border border-red-200'
+                      : 'text-[#0A132B] hover:bg-[#FBFAF7] hover:text-[#9E0E25]'
                   }`}
                 >
                   {link.name}
@@ -162,7 +162,7 @@ const Navbar = () => {
             <a
               href={`tel:${BRAND.phone}`}
               onClick={closeSidebar}
-              className="w-full flex items-center justify-center gap-2 bg-[#E31937] text-white py-3.5 px-6 rounded-full font-bold text-[14px] transition-all hover:bg-[#C01530]"
+              className="w-full flex items-center justify-center gap-2 bg-[#C01530] text-white py-3.5 px-6 rounded-full font-bold text-[14px] transition-all hover:bg-[#9E0E25]"
             >
               <FaPhone className="text-sm" />
               Call Now
@@ -175,7 +175,7 @@ const Navbar = () => {
           <p className="text-[#667085] text-[11px] text-center">
             © {new Date().getFullYear()} MT Consultancy
           </p>
-          <p className="text-[#E31937] text-[10px] text-center mt-1">Your Trusted Financial Partner</p>
+          <p className="text-[#C01530] text-[10px] text-center mt-1">Your Trusted Financial Partner</p>
         </div>
       </div>
     </>

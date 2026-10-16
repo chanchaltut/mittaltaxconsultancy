@@ -32,7 +32,7 @@ const FAQSection = () => {
           <div className="section-tag">FAQ</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-4 leading-tight">
             Frequently Asked{' '}
-            <span className="text-[#E31937]">Questions</span>
+            <span className="text-[#C01530]">Questions</span>
           </h2>
           <p className="text-[#667085] text-sm sm:text-base max-w-xl mx-auto">
             Everything you need to know about our professional services, pricing, and process.
@@ -58,12 +58,12 @@ const FAQSection = () => {
                   aria-controls={`faq-answer-${faq.id}`}
                 >
                   <span className={`font-semibold text-sm sm:text-base leading-snug transition-colors ${
-                    isOpen ? 'text-[#E31937]' : 'text-[#0A132B]'
+                    isOpen ? 'text-[#C01530]' : 'text-[#0A132B]'
                   }`}>
                     {faq.q}
                   </span>
                   <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-200 ${
-                    isOpen ? 'bg-[#E31937] text-white' : 'bg-white text-[#667085]'
+                    isOpen ? 'bg-[#C01530] text-white' : 'bg-white text-[#667085]'
                   }`}>
                     {isOpen
                       ? <FaChevronUp className="text-xs" />
@@ -96,7 +96,7 @@ const FAQSection = () => {
             href={`https://wa.me/${BRAND.whatsapp}?text=Hi! I have a question about professional services.`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 min-h-[48px]"
+            className="inline-flex items-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 min-h-[48px]"
           >
             <i className="ri-whatsapp-line mr-2"></i> Ask on WhatsApp
           </a>

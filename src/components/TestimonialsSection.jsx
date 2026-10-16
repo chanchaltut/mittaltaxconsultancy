@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
         <div className="text-center mb-10 sm:mb-12">
           <div className="section-tag">Testimonials</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-4 leading-tight">
-            What Our <span className="text-[#E31937]">Clients Say</span>
+            What Our <span className="text-[#C01530]">Clients Say</span>
           </h2>
           <p className="text-[#667085] text-sm sm:text-base">
             500+ satisfied clients across India trust MT Consultancy for all their CA needs.
@@ -40,14 +40,14 @@ const TestimonialsSection = () => {
           <div className="bg-[#FBFAF7] border border-red-100 rounded-2xl p-6">
             <div className="flex gap-1 mb-3">
               {[...Array(TESTIMONIALS[current].rating)].map((_, i) => (
-                <FaStar key={i} className="text-[#E31937] text-sm" />
+                <FaStar key={i} className="text-[#C01530] text-sm" />
               ))}
             </div>
             <p className="text-[#667085] text-sm leading-relaxed mb-5 italic">
               "{TESTIMONIALS[current].text}"
             </p>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#E31937] rounded-full flex items-center justify-center text-[#0A132B] font-extrabold text-lg flex-shrink-0">
+              <div className="w-10 h-10 bg-[#C01530] text-white rounded-full flex items-center justify-center font-extrabold text-lg flex-shrink-0">
                 {TESTIMONIALS[current].name[0]}
               </div>
               <div>
@@ -58,12 +58,12 @@ const TestimonialsSection = () => {
           </div>
           {/* Mobile nav */}
           <div className="flex items-center justify-center gap-4 mt-5">
-            <button onClick={prev} className="w-10 h-10 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#E31937] hover:text-[#E31937] flex items-center justify-center transition-colors" aria-label="Previous">
-              <FaChevronLeft />
+            <button onClick={prev} className="w-9 h-9 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#C01530] hover:text-[#9E0E25] flex items-center justify-center transition-colors no-min-h !min-h-0 min-h-0 p-0" aria-label="Previous">
+              <FaChevronLeft className="text-xs" />
             </button>
-            <span className="text-[#667085] text-sm">{current + 1} / {total}</span>
-            <button onClick={next} className="w-10 h-10 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#E31937] hover:text-[#E31937] flex items-center justify-center transition-colors" aria-label="Next">
-              <FaChevronRight />
+            <span className="text-[#667085] text-xs font-semibold">{current + 1} / {total}</span>
+            <button onClick={next} className="w-9 h-9 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#C01530] hover:text-[#9E0E25] flex items-center justify-center transition-colors no-min-h !min-h-0 min-h-0 p-0" aria-label="Next">
+              <FaChevronRight className="text-xs" />
             </button>
           </div>
         </div>
@@ -75,19 +75,19 @@ const TestimonialsSection = () => {
               <div
                 key={`${testimonial.id}-${i}`}
                 className={`bg-[#FBFAF7] border rounded-2xl p-6 transition-all duration-300 ${
-                  i === 0 ? 'border-[#E31937]/40 shadow-lg' : 'border-red-100'
+                  i === 0 ? 'border-[#C01530]/40 shadow-lg' : 'border-red-100'
                 }`}
               >
                 <div className="flex gap-1 mb-3">
                   {[...Array(testimonial.rating)].map((_, j) => (
-                    <FaStar key={j} className="text-[#E31937] text-sm" />
+                    <FaStar key={j} className="text-[#C01530] text-sm" />
                   ))}
                 </div>
                 <p className="text-[#667085] text-sm leading-relaxed mb-5 italic">
                   "{testimonial.text}"
                 </p>
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-[#E31937] rounded-full flex items-center justify-center text-[#0A132B] font-extrabold text-lg flex-shrink-0">
+                  <div className="w-10 h-10 bg-[#C01530] text-white rounded-full flex items-center justify-center font-extrabold text-lg flex-shrink-0">
                     {testimonial.name[0]}
                   </div>
                   <div>
@@ -100,25 +100,30 @@ const TestimonialsSection = () => {
           </div>
           {/* Desktop nav */}
           <div className="flex items-center justify-center gap-4 mt-8">
-            <button onClick={prev} className="w-11 h-11 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#E31937] hover:text-[#E31937] flex items-center justify-center transition-colors" aria-label="Previous testimonials">
-              <FaChevronLeft />
+            <button onClick={prev} className="w-9 h-9 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#C01530] hover:text-[#9E0E25] flex items-center justify-center transition-colors no-min-h !min-h-0 min-h-0 p-0" aria-label="Previous testimonials">
+              <FaChevronLeft className="text-xs" />
             </button>
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-1.5 items-center">
               {TESTIMONIALS.map((_, i) => (
                 <button
                   key={i}
                   onClick={() => setCurrent(i)}
-                  className={`rounded-full transition-all duration-300 ${
+                  className={`rounded-full transition-all duration-300 no-min-h !min-h-0 min-h-0 p-0 block cursor-pointer ${
                     i === current
-                      ? 'bg-[#E31937] border border-[#E31937] w-7 h-2.5 shadow-sm shadow-red-500/20'
-                      : 'bg-white border border-[#E31937]/50 w-2.5 h-2.5 hover:border-[#E31937] hover:scale-110 shadow-xs'
+                      ? 'bg-[#C01530] border border-[#C01530] shadow-xs'
+                      : 'bg-white border border-[#C01530]/40 hover:border-[#C01530] hover:scale-110'
                   }`}
+                  style={{
+                    minHeight: 'unset',
+                    height: '5px',
+                    width: i === current ? '20px' : '5px'
+                  }}
                   aria-label={`Go to testimonial ${i + 1}`}
                 />
               ))}
             </div>
-            <button onClick={next} className="w-11 h-11 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#E31937] hover:text-[#E31937] flex items-center justify-center transition-colors" aria-label="Next testimonials">
-              <FaChevronRight />
+            <button onClick={next} className="w-9 h-9 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#C01530] hover:text-[#9E0E25] flex items-center justify-center transition-colors no-min-h !min-h-0 min-h-0 p-0" aria-label="Next testimonials">
+              <FaChevronRight className="text-xs" />
             </button>
           </div>
         </div>
@@ -128,7 +133,7 @@ const TestimonialsSection = () => {
           <div className="inline-flex items-center gap-3 bg-[#FBFAF7] border border-red-100 rounded-full px-6 py-3">
             <div className="flex gap-0.5">
               {[...Array(5)].map((_, i) => (
-                <FaStar key={i} className="text-[#E31937] text-sm" />
+                <FaStar key={i} className="text-[#C01530] text-sm" />
               ))}
             </div>
             <span className="text-[#0A132B] font-bold">4.2/5</span>

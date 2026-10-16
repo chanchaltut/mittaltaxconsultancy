@@ -293,7 +293,7 @@ const Insights = () => {
                 onClick={() => { setSelectedCategory(cat); setExpandedId(null); }}
                 className={`px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-200 min-h-[40px] ${
                   selectedCategory === cat
-                    ? 'bg-[#E31937] text-white shadow-lg shadow-[#E31937]/30'
+                    ? 'bg-[#C01530] text-white shadow-lg shadow-[#C01530]/30'
                     : 'bg-[#FBFAF7] text-[#667085] border border-red-100 hover:border-red-300 hover:text-[#0A132B]'
                 }`}
               >
@@ -358,7 +358,7 @@ const Insights = () => {
                         </div>
                         <div className="flex items-center justify-between mt-4">
                           <span className="text-[#667085] text-xs sm:hidden">{article.readTime}</span>
-                          <button className={`flex items-center gap-2 font-semibold text-sm transition-all ${isExpanded ? 'text-red-600' : 'text-[#E31937] hover:text-red-600'}`}>
+                          <button className={`flex items-center gap-2 font-semibold text-sm transition-all ${isExpanded ? 'text-red-600' : 'text-[#C01530] hover:text-red-600'}`}>
                             {isExpanded ? (
                               <><FaChevronUp className="text-xs" /> Read Less</>
                             ) : (
@@ -436,11 +436,11 @@ const Insights = () => {
                   type="email"
                   placeholder="your@email.com"
                   required
-                  className="flex-1 bg-white border border-red-100 focus:border-[#E31937] rounded-lg px-4 py-3 text-[#0A132B] text-sm focus:outline-none transition-colors placeholder-[#475569]"
+                  className="flex-1 bg-white border border-red-100 focus:border-[#C01530] rounded-lg px-4 py-3 text-[#0A132B] text-sm focus:outline-none transition-colors placeholder-[#475569]"
                 />
                 <button
                   type="submit"
-                  className="bg-[#E31937] hover:bg-[#C01530] text-white px-6 py-3 rounded-lg font-bold text-sm transition-colors whitespace-nowrap"
+                  className="bg-[#C01530] hover:bg-[#9E0E25] text-white px-6 py-3 rounded-lg font-bold text-sm transition-colors whitespace-nowrap"
                 >
                   Subscribe
                 </button>

@@ -25,7 +25,7 @@ const StickyMobileCTA = () => {
         {/* Call Now */}
         <a
           href={`tel:${BRAND.phone}`}
-          className="flex items-center justify-center gap-2 bg-[#E31937] text-white font-bold text-sm active:bg-[#C01530] transition-colors min-h-[56px]"
+          className="flex items-center justify-center gap-2 bg-[#C01530] text-white font-bold text-sm active:bg-[#C01530] transition-colors min-h-[56px]"
           aria-label={`Call ${BRAND.phone}`}
         >
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 flex-shrink-0">

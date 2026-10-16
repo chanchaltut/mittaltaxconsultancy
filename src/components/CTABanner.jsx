@@ -5,7 +5,7 @@ import { BRAND } from '../utils/constants';
 const CTABanner = () => {
   return (
     <section
-      className="relative bg-gradient-to-br from-[#E31937] via-[#C01530] to-[#8B0019] py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 overflow-hidden"
+      className="relative bg-gradient-to-br from-[#C01530] via-[#C01530] to-[#8B0019] py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 overflow-hidden"
       aria-label="Call to action"
     >
       {/* Background decoration */}
@@ -58,7 +58,7 @@ const CTABanner = () => {
           </a>
           <a
             href={`tel:${BRAND.phone}`}
-            className="inline-flex items-center justify-center gap-2.5 bg-white text-[#E31937] hover:bg-[#FBFAF7] px-8 py-4 rounded-full font-bold text-sm sm:text-base transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg group min-h-[52px]"
+            className="inline-flex items-center justify-center gap-2.5 bg-white text-[#C01530] hover:bg-[#FBFAF7] px-8 py-4 rounded-full font-bold text-sm sm:text-base transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg group min-h-[52px]"
           >
             <FaPhone className="text-sm" />
             Call Now: {BRAND.phone}

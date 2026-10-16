@@ -13,7 +13,7 @@ const ProcessSection = () => {
           <div className="section-tag">How It Works</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-4 leading-tight">
             Get Your Professional Service in{' '}
-            <span className="text-[#E31937]">4 Simple Steps</span>
+            <span className="text-[#C01530]">4 Simple Steps</span>
           </h2>
           <p className="text-[#667085] text-sm sm:text-base max-w-xl mx-auto">
             We've made it simple to get professional professional services from anywhere in India.
@@ -23,7 +23,7 @@ const ProcessSection = () => {
         {/* Steps — Vertical on mobile, Horizontal on desktop */}
         <div className="relative">
           {/* Connecting line (desktop only) */}
-          <div className="hidden md:block absolute top-10 left-[12.5%] right-[12.5%] h-0.5 bg-gradient-to-r from-[#E31937] via-[#E31937]/50 to-[#E31937]" aria-hidden="true" />
+          <div className="hidden md:block absolute top-10 left-[12.5%] right-[12.5%] h-0.5 bg-gradient-to-r from-[#C01530] via-[#C01530]/50 to-[#C01530]" aria-hidden="true" />
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6">
             {PROCESS_STEPS.map((step, i) => (
@@ -32,13 +32,13 @@ const ProcessSection = () => {
                 className="relative flex flex-col items-center text-center md:items-center"
               >
                 {/* Mobile: left border timeline */}
-                <div className="md:hidden absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#E31937] to-[#E31937]/20" aria-hidden="true" />
+                <div className="md:hidden absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#C01530] to-[#C01530]/20" aria-hidden="true" />
 
                 <div className="md:hidden pl-8 text-left w-full pb-10">
                   {/* Step number */}
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="absolute left-[-8px] w-4 h-4 bg-[#E31937] rounded-full flex-shrink-0" aria-hidden="true" />
-                    <span className="text-[#E31937] font-extrabold text-sm tracking-widest">{step.step}</span>
+                    <div className="absolute left-[-8px] w-4 h-4 bg-[#C01530] rounded-full flex-shrink-0" aria-hidden="true" />
+                    <span className="text-[#C01530] font-extrabold text-sm tracking-widest">{step.step}</span>
                     <i className={`text-2xl text-red-600 ${step.icon}`}></i>
                   </div>
                   <h3 className="text-[#0A132B] font-bold text-lg mb-2">{step.title}</h3>
@@ -48,9 +48,9 @@ const ProcessSection = () => {
                 {/* Desktop layout */}
                 <div className="hidden md:flex md:flex-col md:items-center">
                   {/* Icon circle */}
-                  <div className="relative z-10 w-20 h-20 bg-white border-2 border-[#E31937] rounded-full flex flex-col items-center justify-center mb-5 shadow-lg">
+                  <div className="relative z-10 w-20 h-20 bg-white border-2 border-[#C01530] rounded-full flex flex-col items-center justify-center mb-5 shadow-lg">
                     <i className={`text-2xl mb-0.5 text-red-600 ${step.icon}`}></i>
-                    <span className="text-[#E31937] font-extrabold text-xs tracking-widest">{step.step}</span>
+                    <span className="text-[#C01530] font-extrabold text-xs tracking-widest">{step.step}</span>
                   </div>
 
                   <h3 className="text-[#0A132B] font-bold text-base sm:text-lg mb-2">{step.title}</h3>
@@ -63,8 +63,8 @@ const ProcessSection = () => {
 
         {/* Bottom note */}
         <div className="text-center mt-10 sm:mt-12">
-          <div className="inline-flex items-center gap-2 bg-[#E31937]/10 border border-red-100 rounded-2xl px-6 py-4">
-            <i className="ri-flashlight-line text-2xl text-[#E31937]"></i>
+          <div className="inline-flex items-center gap-2 bg-[#C01530]/10 border border-red-100 rounded-2xl px-6 py-4">
+            <i className="ri-flashlight-line text-2xl text-[#C01530]"></i>
             <p className="text-[#667085] text-sm">
               <strong className="text-[#0A132B]">Most services completed in 24–72 hours.</strong>{' '}
               No office visit needed.

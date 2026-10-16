@@ -1,0 +1,1 @@
+import{o,j as s}from"./index-9dzJ8nn1.js";import"./router-8H30XJJE.js";import{S as r}from"./ServicePage-B8XGzy2o.js";import"./vendor-DEQ385Nk.js";import"./seo-B3HPo2F4.js";import"./icons-COrbLGlB.js";const i=()=>{const i=o.find(o=>"fno-capital-gain"===o.slug);return s.jsx(r,{service:i})};export{i as default};

@@ -32,7 +32,7 @@ const FNOCapitalGain       = lazy(() => import('./pages/services/FNOCapitalGain'
 const PageLoader = () => (
   <div className="min-h-screen bg-[#FBFAF7] flex items-center justify-center">
     <div className="flex flex-col items-center gap-4">
-      <div className="w-12 h-12 border-4 border-[#E31937] border-t-transparent rounded-full animate-spin" />
+      <div className="w-12 h-12 border-4 border-[#C01530] border-t-transparent rounded-full animate-spin" />
       <p className="text-[#667085] text-sm">Loading...</p>
     </div>
   </div>
@@ -91,10 +91,10 @@ function App() {
           {/* ─── FALLBACK (404) ─── */}
           <Route path="*" element={
             <div className="min-h-screen bg-[#FBFAF7] flex flex-col items-center justify-center px-4 text-center">
-              <h1 className="text-[#E31937] text-8xl font-extrabold mb-4">404</h1>
+              <h1 className="text-[#C01530] text-8xl font-extrabold mb-4">404</h1>
               <p className="text-[#0A132B] text-xl font-semibold mb-3">Page Not Found</p>
               <p className="text-[#667085] text-sm mb-6">The page you're looking for doesn't exist.</p>
-              <a href="/" className="bg-[#E31937] text-white px-6 py-3 rounded-full font-bold hover:bg-[#C01530] transition-colors">Go Home</a>
+              <a href="/" className="bg-[#C01530] text-white px-6 py-3 rounded-full font-bold hover:bg-[#9E0E25] transition-colors">Go Home</a>
             </div>
           } />
         </Routes>

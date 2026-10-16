@@ -51,7 +51,7 @@ const StatsBar = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-[#E31937] py-8 sm:py-10 md:py-12"
+      className="bg-[#C01530] py-8 sm:py-10 md:py-12"
       aria-label="Company statistics"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6">

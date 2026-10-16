@@ -45,7 +45,7 @@ const AboutSection = () => {
               </div>
 
               {/* Stats overlay card */}
-              <div className="relative lg:absolute lg:bottom-[-24px] lg:left-0 lg:right-0 mt-4 lg:mt-0 mx-0 lg:mx-4 bg-[#E31937] rounded-2xl p-5 sm:p-6 shadow-xl">
+              <div className="relative lg:absolute lg:bottom-[-24px] lg:left-0 lg:right-0 mt-4 lg:mt-0 mx-0 lg:mx-4 bg-[#C01530] rounded-2xl p-5 sm:p-6 shadow-xl">
                 <div className="grid grid-cols-3 gap-4 divide-x divide-white/20">
                   {statsThree.map((stat, i) => (
                     <div key={i} className="text-center px-2">
@@ -68,7 +68,7 @@ const AboutSection = () => {
               <div className="section-tag">About Us</div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-5 leading-tight">
                 About{' '}
-                <span className="text-[#E31937]">MT Consultancy</span>
+                <span className="text-[#C01530]">MT Consultancy</span>
               </h2>
             </div>
 
@@ -85,7 +85,7 @@ const AboutSection = () => {
             <ul className="reveal animation-delay-300 space-y-3 mb-8 text-left max-w-md mx-auto lg:mx-0">
               {ABOUT.highlights.map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-[#0A132B] text-sm sm:text-base">
-                  <FaCheckCircle className="text-[#E31937] flex-shrink-0 text-lg" />
+                  <FaCheckCircle className="text-[#C01530] flex-shrink-0 text-lg" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -97,13 +97,13 @@ const AboutSection = () => {
                 href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I want to book a free consultation with MT Consultancy.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 min-h-[48px]"
+                className="inline-flex items-center justify-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-200 hover:-translate-y-0.5 min-h-[48px]"
               >
                 Book Free Consultation →
               </a>
               <a
                 href={`tel:${BRAND.phone}`}
-                className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-red-100 hover:border-[#E31937] text-[#0A132B] hover:text-[#E31937] px-6 py-3.5 rounded-full font-semibold text-sm transition-all duration-200 min-h-[48px]"
+                className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-red-100 hover:border-[#C01530] text-[#0A132B] hover:text-[#C01530] px-6 py-3.5 rounded-full font-semibold text-sm transition-all duration-200 min-h-[48px]"
               >
                 <><i className="ri-phone-line mr-2"></i> Call Us</>
               </a>

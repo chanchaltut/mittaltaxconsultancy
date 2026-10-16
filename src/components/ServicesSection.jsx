@@ -62,8 +62,8 @@ const ServiceCard = ({ service }) => {
         aria-expanded={open}
       >
         {/* Icon */}
-        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#E31937]/10 flex items-center justify-center flex-shrink-0">
-          <i className={`${icon} text-[#E31937] text-lg sm:text-xl`} />
+        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#C01530]/10 flex items-center justify-center flex-shrink-0">
+          <i className={`${icon} text-[#C01530] text-lg sm:text-xl`} />
         </div>
 
         {/* Title block */}
@@ -71,16 +71,16 @@ const ServiceCard = ({ service }) => {
           <div className="flex flex-wrap items-center gap-1.5 mb-0.5">
             <h3 className="text-[#0A132B] font-bold text-sm sm:text-base leading-tight">{service.title}</h3>
             {service.badge && (
-              <span className="inline-flex items-center gap-0.5 bg-[#E31937]/10 text-[#E31937] border border-red-200 text-[9px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap">
+              <span className="inline-flex items-center gap-0.5 bg-[#C01530]/10 text-[#C01530] border border-red-200 text-[9px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap">
                 <i className="ri-fire-line" />{service.badge}
               </span>
             )}
           </div>
-          <p className="text-[#E31937] font-bold text-xs">Starting from {service.startingPrice}</p>
+          <p className="text-[#C01530] font-bold text-xs">Starting from {service.startingPrice}</p>
         </div>
 
         {/* Arrow */}
-        <i className={`ri-arrow-${open ? 'up' : 'down'}-s-line text-[#667085] text-xl flex-shrink-0 group-hover:text-[#E31937] transition-colors`} />
+        <i className={`ri-arrow-${open ? 'up' : 'down'}-s-line text-[#667085] text-xl flex-shrink-0 group-hover:text-[#C01530] transition-colors`} />
       </button>
 
       {/* Subcategories — smooth accordion */}
@@ -88,19 +88,19 @@ const ServiceCard = ({ service }) => {
         <div className="border-t border-red-100 px-3 sm:px-4 pt-3 pb-4">
           <p className="text-[#667085] text-xs mb-3 leading-snug">{service.shortDesc}</p>
           <p className="text-[#0A132B] text-[10px] font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5">
-            <i className="ri-list-check-2 text-[#E31937]" />
+            <i className="ri-list-check-2 text-[#C01530]" />
             All Services — Excl. Govt Fees
           </p>
 
           <ul className="space-y-1.5 max-h-60 sm:max-h-72 overflow-y-auto pr-2 scroll-smooth overscroll-contain service-dropdown-scroll">
             {service.subcategories.map((sub, i) => (
-              <li key={i} className="flex items-center gap-2 bg-[#FBFAF7] border border-red-100 rounded-lg px-2.5 py-2 hover:border-[#E31937]/40 transition-all group/item">
-                <i className="ri-checkbox-circle-fill text-[#E31937] text-sm flex-shrink-0" />
+              <li key={i} className="flex items-center gap-2 bg-[#FBFAF7] border border-red-100 rounded-lg px-2.5 py-2 hover:border-[#C01530]/40 transition-all group/item">
+                <i className="ri-checkbox-circle-fill text-[#C01530] text-sm flex-shrink-0" />
                 {/* Name — wraps on mobile, no truncation */}
                 <span className="text-[#0A132B] text-xs font-medium flex-1 leading-snug break-words min-w-0">{sub.name}</span>
                 {/* Price + WA — stacked on mobile */}
                 <div className="flex flex-col items-end gap-1 flex-shrink-0 ml-1">
-                  <span className="text-[#E31937] font-bold text-[10px] whitespace-nowrap text-right">{sub.price}</span>
+                  <span className="text-[#C01530] font-bold text-[10px] whitespace-nowrap text-right">{sub.price}</span>
                   <a
                     href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi! I need "${sub.name}" from MT Consultancy. Please guide me.`)}`}
                     target="_blank"
@@ -121,7 +121,7 @@ const ServiceCard = ({ service }) => {
             href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(service.whatsappMsg)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-3 w-full flex items-center justify-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white py-2.5 rounded-xl font-bold text-sm transition-all"
+            className="mt-3 w-full flex items-center justify-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white py-2.5 rounded-xl font-bold text-sm transition-all"
           >
             <i className="ri-whatsapp-line" />
             Enquire about {service.shortTitle || service.title}
@@ -134,7 +134,7 @@ const ServiceCard = ({ service }) => {
 
 // ── Search Result Item ──────────────────────────────────────────
 const SearchResultItem = ({ result }) => (
-  <li className="flex flex-wrap items-center gap-2 bg-white border border-red-100 rounded-xl px-3 py-2.5 hover:border-[#E31937]/40 transition-all">
+  <li className="flex flex-wrap items-center gap-2 bg-white border border-red-100 rounded-xl px-3 py-2.5 hover:border-[#C01530]/40 transition-all">
     <div className="flex-1 min-w-0">
       <p className="text-[#0A132B] font-semibold text-sm leading-snug break-words">{result.name}</p>
       {result.type === 'sub' && (
@@ -142,7 +142,7 @@ const SearchResultItem = ({ result }) => (
       )}
     </div>
     <div className="flex items-center gap-2 flex-shrink-0">
-      <span className="text-[#E31937] font-bold text-xs whitespace-nowrap">{result.price}</span>
+      <span className="text-[#C01530] font-bold text-xs whitespace-nowrap">{result.price}</span>
       <a
         href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(result.whatsappMsg)}`}
         target="_blank"
@@ -222,12 +222,12 @@ const ServicesSection = () => {
         <div className="text-center mb-8 sm:mb-10">
           <div className="section-tag">Our Services</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A132B] mt-3 mb-3 leading-tight">
-            Complete Professional <span className="text-[#E31937]">Services</span>
+            Complete Professional <span className="text-[#C01530]">Services</span>
           </h2>
           <p className="text-[#667085] text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mb-1">
             12 categories · 100+ services · 100% online across India · Open 24 Hours
           </p>
-          <p className="text-[#E31937] text-xs font-semibold">
+          <p className="text-[#C01530] text-xs font-semibold">
             * All prices are "Starting from" — Govt fees charged at actuals, separately.
           </p>
         </div>
@@ -242,18 +242,18 @@ const ServicesSection = () => {
               value={searchQuery}
               onChange={handleSearchChange}
               placeholder="Search — GST, ITR, Trademark, MSME, PF..."
-              className="w-full bg-white border border-red-100 focus:border-[#E31937] focus:ring-2 focus:ring-[#E31937]/20 rounded-2xl pl-11 pr-10 py-3.5 text-[#0A132B] text-sm placeholder-[#667085] outline-none transition-all shadow-sm"
+              className="w-full bg-white border border-red-100 focus:border-[#C01530] focus:ring-2 focus:ring-[#C01530]/20 rounded-2xl pl-11 pr-10 py-3.5 text-[#0A132B] text-sm placeholder-[#667085] outline-none transition-all shadow-sm"
               aria-label="Search services"
             />
             {isSearching && (
               <div className="absolute right-4 top-1/2 -translate-y-1/2">
-                <div className="w-4 h-4 border-2 border-[#E31937] border-t-transparent rounded-full animate-spin" />
+                <div className="w-4 h-4 border-2 border-[#C01530] border-t-transparent rounded-full animate-spin" />
               </div>
             )}
             {searchQuery && !isSearching && (
               <button
                 onClick={() => { setSearchQuery(''); setDebouncedQuery(''); setSearchResults([]); searchInputRef.current?.focus(); }}
-                className="absolute right-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#667085]/15 hover:bg-[#E31937]/20 flex items-center justify-center text-[#667085] hover:text-[#E31937] transition-colors"
+                className="absolute right-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#667085]/15 hover:bg-[#C01530]/20 flex items-center justify-center text-[#667085] hover:text-[#C01530] transition-colors"
                 aria-label="Clear search"
               >
                 <i className="ri-close-line text-sm" />
@@ -268,7 +268,7 @@ const ServicesSection = () => {
                 <>
                   <div className="px-4 pt-3 pb-2">
                     <p className="text-[#667085] text-xs font-semibold">
-                      {searchResults.length} result{searchResults.length !== 1 ? 's' : ''} for <span className="text-[#E31937]">"{debouncedQuery}"</span>
+                      {searchResults.length} result{searchResults.length !== 1 ? 's' : ''} for <span className="text-[#C01530]">"{debouncedQuery}"</span>
                     </p>
                   </div>
                   <ul className="px-3 pb-3 space-y-1.5 max-h-72 overflow-y-auto pr-2 scroll-smooth overscroll-contain service-dropdown-scroll">
@@ -278,7 +278,7 @@ const ServicesSection = () => {
               ) : (
                 <div className="px-4 py-5 text-center">
                   <i className="ri-search-line text-3xl text-[#667085]/40 block mb-2" />
-                  <p className="text-[#667085] text-sm">No results for <span className="text-[#E31937] font-semibold">"{debouncedQuery}"</span></p>
+                  <p className="text-[#667085] text-sm">No results for <span className="text-[#C01530] font-semibold">"{debouncedQuery}"</span></p>
                   <a
                     href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi! I'm looking for "${debouncedQuery}" service. Can MT Consultancy help?`)}`}
                     target="_blank"
@@ -304,8 +304,8 @@ const ServicesSection = () => {
               aria-selected={activeCategory === cat}
               className={`flex-shrink-0 px-3.5 py-2 rounded-full text-xs font-semibold transition-all whitespace-nowrap min-h-[36px] ${
                 activeCategory === cat
-                  ? 'bg-[#E31937] text-white shadow-md'
-                  : 'bg-white text-[#0A132B] border border-red-100 hover:border-[#E31937] hover:text-[#E31937]'
+                  ? 'bg-[#C01530] text-white shadow-md'
+                  : 'bg-white text-[#0A132B] border border-red-100 hover:border-[#C01530] hover:text-[#C01530]'
               }`}
             >
               {cat}
@@ -329,7 +329,7 @@ const ServicesSection = () => {
             href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I need help choosing the right professional service from MT Consultancy.')}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#E31937] hover:bg-[#C01530] text-white px-7 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 min-h-[48px]"
+            className="inline-flex items-center gap-2 bg-[#C01530] hover:bg-[#9E0E25] text-white px-7 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 min-h-[48px]"
           >
             <i className="ri-whatsapp-line text-base" />
             Talk to Our Tax Expert

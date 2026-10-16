@@ -62,14 +62,14 @@ const DisclaimerModal = () => {
         style={{ maxHeight: '80vh' }}
       >
         {/* Red top bar */}
-        <div className="h-1 w-full bg-gradient-to-r from-[#E31937] via-[#F5405E] to-[#E31937] flex-shrink-0" />
+        <div className="h-1 w-full bg-gradient-to-r from-[#C01530] via-[#F5405E] to-[#C01530] flex-shrink-0" />
 
         {/* Header */}
         <div className="px-4 pt-3 pb-3 flex items-center justify-between border-b border-red-100 flex-shrink-0">
           <img src={mtcLogo} alt="MT Consultancy" className="h-7 sm:h-8 w-auto" />
           <button
             onClick={dismiss}
-            className="w-8 h-8 rounded-full bg-red-50 hover:bg-[#E31937]/20 flex items-center justify-center text-[#0A132B]/60 hover:text-[#0A132B] transition-all"
+            className="w-8 h-8 rounded-full bg-red-50 hover:bg-[#C01530]/20 flex items-center justify-center text-[#0A132B]/60 hover:text-[#0A132B] transition-all"
             aria-label="Close"
           >
             <i className="ri-close-line text-lg" />
@@ -79,7 +79,7 @@ const DisclaimerModal = () => {
         {/* Scrollable body */}
         <div className="overflow-y-auto flex-1 px-4 pt-4 pb-3">
           <h2 className="text-[#0A132B] font-bold text-lg sm:text-xl mb-0.5">
-            Welcome to <span className="text-[#E31937]">MT Consultancy</span>
+            Welcome to <span className="text-[#C01530]">MT Consultancy</span>
           </h2>
           <p className="text-[#667085] text-xs mb-4">Your Trusted Financial Partner — Tax, Compliance &amp; Business Support</p>
 
@@ -90,7 +90,7 @@ const DisclaimerModal = () => {
                 key={i}
                 className="flex items-center gap-2 bg-red-50 rounded-xl px-3 py-2.5 border border-red-100"
               >
-                <i className={`${item.icon} text-[#E31937] text-base flex-shrink-0`} />
+                <i className={`${item.icon} text-[#C01530] text-base flex-shrink-0`} />
                 <span className="text-[#0A132B] font-semibold text-xs">{item.label}</span>
               </div>
             ))}
@@ -100,7 +100,7 @@ const DisclaimerModal = () => {
           <div className="flex gap-2.5">
             <button
               onClick={dismiss}
-              className="flex-1 flex items-center justify-center gap-1.5 bg-[#E31937] hover:bg-[#C01530] text-white py-2.5 px-3 rounded-full font-bold text-xs transition-all duration-200"
+              className="flex-1 flex items-center justify-center gap-1.5 bg-[#C01530] hover:bg-[#9E0E25] text-white py-2.5 px-3 rounded-full font-bold text-xs transition-all duration-200"
             >
               <i className="ri-compass-3-line text-sm" />
               Explore Services

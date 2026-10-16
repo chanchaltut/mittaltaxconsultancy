@@ -252,6 +252,15 @@ const Insights = () => {
         <meta name="keywords" content="Income Tax blog, GST updates, CA advice, Tax saving tips, TDS guidelines, Startup compliance, MT Consultancy blog, Tax return guide" />
         <meta property="og:title" content="Tax & GST Insights | MT Consultancy" />
         <meta property="og:description" content="Expert insights on Income Tax, GST, TDS, and Company Registration in India." />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:secure_url" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Tax & GST Insights | MT Consultancy" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image:alt" content="Tax & GST Insights | MT Consultancy" />
         <link rel="canonical" href="https://mtconsultancy.in/insights" />
       </Helmet>
 

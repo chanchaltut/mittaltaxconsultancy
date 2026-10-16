@@ -15,6 +15,15 @@ const AboutUs = () => {
         <meta name="keywords" content="About MT Consultancy, professional firm India, online CA services, tax experts India, business compliance East Delhi" />
         <meta property="og:title" content="About MT Consultancy | Trusted Tax & Compliance Professionals" />
         <meta property="og:description" content="Discover MT Consultancy. A dedicated team of qualified professionals offering 100% online taxation and compliance services across India." />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:secure_url" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="About MT Consultancy — Your Trusted Financial Partner" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image:alt" content="About MT Consultancy — Your Trusted Financial Partner" />
         <link rel="canonical" href="https://mtconsultancy.in/about" />
       </Helmet>
 

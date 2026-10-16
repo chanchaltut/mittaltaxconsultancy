@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaWhatsapp, FaChevronLeft, FaChevronRight, FaArrowUp, FaPhone } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { HERO_SLIDES, BRAND } from '../utils/constants';
 
 const trustBadges = [
@@ -14,7 +14,6 @@ const Hero = () => {
   const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [showScrollTop, setShowScrollTop] = useState(false);
   const intervalRef = useRef(null);
   const touchStartX = useRef(null);
 
@@ -27,13 +26,6 @@ const Hero = () => {
     }
     return () => clearInterval(intervalRef.current);
   }, [isAutoPlaying]);
-
-  // Scroll to top button
-  useEffect(() => {
-    const handleScroll = () => setShowScrollTop(window.scrollY > 300);
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const goToSlide = (index) => {
     setCurrentSlide(index);
@@ -151,22 +143,24 @@ const Hero = () => {
         </div>
 
         {/* Central Navigation Controls */}
-        <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 bg-white/80 backdrop-blur-md px-3 py-2.5 rounded-full shadow-[0_4px_16px_rgba(0,0,0,0.06)] border border-red-100/50">
+        <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 bg-white/95 backdrop-blur-md px-3.5 py-2 rounded-full shadow-[0_4px_20px_rgba(227,25,55,0.08)] border border-red-200">
           <button
             onClick={prevSlide}
-            className="flex items-center justify-center w-8 h-8 rounded-full bg-red-50 text-[#0A132B] hover:bg-[#E31937] hover:text-white transition-all duration-200"
+            className="flex items-center justify-center w-8 h-8 rounded-full bg-white border border-red-200 text-[#0A132B] hover:bg-[#E31937] hover:text-white hover:border-[#E31937] transition-all duration-200 shadow-xs"
             aria-label="Previous slide"
           >
             <FaChevronLeft className="text-xs" />
           </button>
           
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-2">
             {HERO_SLIDES.map((_, i) => (
               <button
                 key={i}
                 onClick={() => goToSlide(i)}
-                className={`h-3 rounded-full transition-all duration-300 ${
-                  i === currentSlide ? 'bg-[#E31937] w-6 sm:w-8' : 'bg-red-50 w-2 hover:bg-red-100'
+                className={`rounded-full transition-all duration-300 ${
+                  i === currentSlide
+                    ? 'bg-[#E31937] border border-[#E31937] w-7 sm:w-8 h-2.5 shadow-sm shadow-red-500/25'
+                    : 'bg-white border border-[#E31937]/50 w-2.5 h-2.5 hover:border-[#E31937] hover:scale-110 shadow-xs'
                 }`}
                 aria-label={`Go to slide ${i + 1}`}
               />
@@ -175,52 +169,13 @@ const Hero = () => {
 
           <button
             onClick={nextSlide}
-            className="flex items-center justify-center w-8 h-8 rounded-full bg-red-50 text-[#0A132B] hover:bg-[#E31937] hover:text-white transition-all duration-200"
+            className="flex items-center justify-center w-8 h-8 rounded-full bg-white border border-red-200 text-[#0A132B] hover:bg-[#E31937] hover:text-white hover:border-[#E31937] transition-all duration-200 shadow-xs"
             aria-label="Next slide"
           >
             <FaChevronRight className="text-xs" />
           </button>
         </div>
       </section>
-
-      {/* ═══ FLOATING WHATSAPP BUTTON (LEFT) ═══ */}
-      <a
-        href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent('Hi! I want to chat with MT Consultancy.')}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 left-4 sm:left-6 z-40 group hidden sm:flex"
-        aria-label="Chat on WhatsApp"
-      >
-        <span className="absolute inset-0 rounded-full bg-[#25d366] animate-ping opacity-40 scale-100 group-hover:opacity-0 transition-opacity" />
-        <span className="relative flex items-center gap-2.5 bg-[#25d366] hover:bg-[#20b858] text-white pl-4 pr-5 py-3 rounded-full shadow-xl shadow-green-900/30 font-bold text-sm transition-all duration-200 hover:-translate-y-0.5">
-          <FaWhatsapp className="text-xl" />
-          <span>WhatsApp Us</span>
-        </span>
-      </a>
-
-      {/* ═══ FLOATING CALL BUTTON (RIGHT) ═══ */}
-      <a
-        href={`tel:${BRAND.phone}`}
-        className="fixed bottom-6 right-4 sm:right-6 z-40 group hidden sm:flex"
-        aria-label={`Call ${BRAND.phone}`}
-      >
-        <span className="absolute inset-0 rounded-full bg-[#E31937] animate-ping opacity-30 group-hover:opacity-0 transition-opacity" />
-        <span className="relative flex items-center gap-2.5 bg-[#E31937] hover:bg-[#C01530] text-white pl-4 pr-5 py-3 rounded-full shadow-xl shadow-red-900/20 font-bold text-sm transition-all duration-200 hover:-translate-y-0.5">
-          <FaPhone className="text-base" />
-          <span>Call Now</span>
-        </span>
-      </a>
-
-      {/* ═══ SCROLL TO TOP BUTTON ═══ */}
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className={`fixed bottom-20 right-4 sm:right-6 z-40 w-11 h-11 rounded-full bg-white border border-red-100 hover:border-[#E31937] text-[#0A132B] hover:text-[#E31937] flex items-center justify-center shadow-lg transition-all duration-300 hover:-translate-y-0.5 ${
-          showScrollTop ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible translate-y-4'
-        }`}
-        aria-label="Scroll to top"
-      >
-        <FaArrowUp className="text-sm" />
-      </button>
     </>
   );
 };

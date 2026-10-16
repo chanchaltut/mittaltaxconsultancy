@@ -103,9 +103,18 @@ const TestimonialsSection = () => {
             <button onClick={prev} className="w-11 h-11 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#E31937] hover:text-[#E31937] flex items-center justify-center transition-colors" aria-label="Previous testimonials">
               <FaChevronLeft />
             </button>
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
               {TESTIMONIALS.map((_, i) => (
-                <button key={i} onClick={() => setCurrent(i)} className={`h-2 rounded-full transition-all duration-300 ${i === current ? 'bg-[#E31937] w-8' : 'bg-red-50 w-2 hover:bg-[#94a3b8]'}`} aria-label={`Go to testimonial ${i + 1}`} />
+                <button
+                  key={i}
+                  onClick={() => setCurrent(i)}
+                  className={`rounded-full transition-all duration-300 ${
+                    i === current
+                      ? 'bg-[#E31937] border border-[#E31937] w-7 h-2.5 shadow-sm shadow-red-500/20'
+                      : 'bg-white border border-[#E31937]/50 w-2.5 h-2.5 hover:border-[#E31937] hover:scale-110 shadow-xs'
+                  }`}
+                  aria-label={`Go to testimonial ${i + 1}`}
+                />
               ))}
             </div>
             <button onClick={next} className="w-11 h-11 rounded-full bg-[#FBFAF7] border border-red-100 text-[#0A132B] hover:border-[#E31937] hover:text-[#E31937] flex items-center justify-center transition-colors" aria-label="Next testimonials">

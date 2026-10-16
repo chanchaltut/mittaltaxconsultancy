@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import DisclaimerModal from './components/DisclaimerModal';
-import StickyMobileCTA from './components/StickyMobileCTA';
+import FloatingActions from './components/FloatingActions';
 import TopMarquee from './components/Marquee';
 import LogoLoader from './components/LogoLoader';
 import Home from './pages/Home';
@@ -62,7 +62,7 @@ function App() {
       <DisclaimerModal />
       <ScrollToTop />
       <Navbar />
-      <StickyMobileCTA />
+      <FloatingActions />
 
       <Suspense fallback={<PageLoader />}>
         <Routes>

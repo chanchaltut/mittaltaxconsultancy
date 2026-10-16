@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import { TEAM, BRAND } from '../utils/constants';
 
 // AI Generated Female Professional Illustration
@@ -46,7 +46,19 @@ const TeamSection = () => {
 
             {/* Info */}
             <div className="p-6 sm:p-8 border-t-2 border-[#E31937]">
-              <h3 className="text-[#0A132B] font-bold text-xl sm:text-2xl mb-1">{founder.name}</h3>
+              <div className="flex items-center gap-2.5 mb-1.5 flex-wrap">
+                <h3 className="text-[#0A132B] font-bold text-xl sm:text-2xl">{founder.name}</h3>
+                <a
+                  href={founder.linkedin || BRAND.social.linkedin || "https://www.linkedin.com/in/mittal0444"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#0A66C2]/10 hover:bg-[#0A66C2] text-[#0A66C2] hover:text-white flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs"
+                  aria-label={`${founder.name} LinkedIn Profile`}
+                  title={`Visit ${founder.name}'s LinkedIn Profile`}
+                >
+                  <FaLinkedinIn className="text-sm" />
+                </a>
+              </div>
               <p className="text-[#E31937] text-sm font-semibold tracking-wide mb-2">{founder.role}</p>
               <p className="text-[#667085] text-sm leading-relaxed mb-6">{founder.description}</p>
 

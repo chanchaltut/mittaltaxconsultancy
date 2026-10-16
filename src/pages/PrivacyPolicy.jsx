@@ -9,6 +9,9 @@ const PrivacyPolicy = () => {
         <title>Privacy Policy | MT Consultancy</title>
         <meta name="description" content="Privacy Policy of MT Consultancy. How we protect your data." />
         <meta name="robots" content="noindex, follow" />
+        <meta property="og:title" content="Privacy Policy | MT Consultancy" />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
         <link rel="canonical" href="https://mtconsultancy.in/privacy-policy" />
       </Helmet>
       {/* Hero Section */}

@@ -208,8 +208,8 @@ const Footer = () => {
             <p className="text-[#667085] text-xs sm:text-sm text-center sm:text-left">
               © {new Date().getFullYear()} MT Consultancy. All Rights Reserved. | We Issue Proper GST Invoice for Every Service
             </p>
-            <p className="text-[10px] text-[#667085]/60 text-center sm:text-left">
-              Designed &amp; Developed by <a href="https://chanchalpradhan.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E31937] transition-colors">Chanchal Pradhan</a>
+            <p className="text-[11px] text-[#667085]/60 text-center sm:text-left">
+              Developed by <a href="https://codehyphen.in" target="_blank" rel="noopener noreferrer" className="text-[#667085]/80 hover:text-[#E31937] transition-colors font-medium">Code Hyphen</a>
             </p>
           </div>
           <div className="flex items-center gap-4 sm:gap-6">

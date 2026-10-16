@@ -25,10 +25,18 @@ const Home = () => {
         <meta property="og:description" content="Get expert professional services 100% online. GST, ITR filing, company registration, tax audit, and TDS compliance by qualified professionals. Serving 500+ clients across India." />
         <meta property="og:url" content="https://mtconsultancy.in/" />
         <meta property="og:site_name" content="MT Consultancy" />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:secure_url" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="MT Consultancy — Your Trusted Financial Partner" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="MT Consultancy | Expert Professional Services Online" />
         <meta name="twitter:description" content="Expert professional services 100% online. GST, ITR, company registration, and more by qualified professionals." />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image:alt" content="MT Consultancy — Your Trusted Financial Partner" />
         
         <link rel="canonical" href="https://mtconsultancy.in/" />
       </Helmet>

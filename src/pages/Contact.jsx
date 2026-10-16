@@ -71,6 +71,15 @@ const Contact = () => {
         <meta name="keywords" content="Contact MT Consultancy, MT Consultancy contact number, tax consultant phone number, WhatsApp tax consultation, MT Consultancy email" />
         <meta property="og:title" content="Contact MT Consultancy | Free Online Consultation" />
         <meta property="og:description" content="Need expert tax advice? Contact MT Consultancy today. 100% online professional services across India." />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:secure_url" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Contact MT Consultancy — Your Trusted Financial Partner" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image:alt" content="Contact MT Consultancy — Your Trusted Financial Partner" />
         <link rel="canonical" href="https://mtconsultancy.in/contact" />
       </Helmet>
 

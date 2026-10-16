@@ -25,6 +25,15 @@ const ServicePage = ({ service }) => {
         <meta name="description" content={`${service.shortDesc} by qualified professionals. 100% online across India. Starting ${service.startingPrice}.`} />
         <meta property="og:title" content={`${service.title} | MT Consultancy`} />
         <meta property="og:description" content={service.shortDesc} />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:secure_url" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={`${service.title} — MT Consultancy`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image:alt" content={`${service.title} — MT Consultancy`} />
         <link rel="canonical" href={pageUrl} />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

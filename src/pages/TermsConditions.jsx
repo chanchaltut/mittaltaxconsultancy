@@ -9,6 +9,9 @@ const TermsConditions = () => {
         <title>Terms & Conditions | MT Consultancy</title>
         <meta name="description" content="Terms and Conditions for using MT Consultancy services." />
         <meta name="robots" content="noindex, follow" />
+        <meta property="og:title" content="Terms & Conditions | MT Consultancy" />
+        <meta property="og:image" content="https://mtconsultancy.in/og-image.jpg" />
+        <meta name="twitter:image" content="https://mtconsultancy.in/og-image.jpg" />
         <link rel="canonical" href="https://mtconsultancy.in/terms-conditions" />
       </Helmet>
       {/* Hero Section */}
